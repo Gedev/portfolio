@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -20,7 +21,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `/src/pages`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
