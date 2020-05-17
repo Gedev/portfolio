@@ -20,10 +20,6 @@ const IndexPage = () => (
         <p>I am actually searching for an opportunity in web development, as a back-end developer, but still open to
             front-end offers.</p>
         <p>Don't hesitate to <Link to="/#contact">contact me !</Link></p>
-        <p>Enjoy your visit of my website !</p>
-        <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
-            <Image/>
-        </div>
         <Link to="/page-2/">Go to page 2</Link>
         <Profile />
         <Skills />
