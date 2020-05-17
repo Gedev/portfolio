@@ -15,23 +15,23 @@ const Header = ({ siteTitle }) => (
       <NavbarCollapse id="navbarResponsive">
         <Nav as="ul">
           <NavItem as="li">
-            <Link to="/page-2" className="nav-link" activeClassName="active">
-              Page 2
-            </Link>
-          </NavItem>
-          <NavItem as="li">
-            <Link to="/page-2" className="nav-link" activeClassName="active">
+            <Link to="/#profile" className="nav-link" activeClassName="active">
             Profile
             </Link>
           </NavItem>
           <NavItem as="li">
-            <Link to="/page-2" className="nav-link" activeClassName="active">
+            <Link to="/#skills" className="nav-link" activeClassName="active">
             Skills
             </Link>
           </NavItem>
           <NavItem as="li">
-            <Link to="/page-2" className="nav-link" activeClassName="active">
-              Onglet 4
+            <Link to="/#projects" className="nav-link" activeClassName="active">
+              Projects
+            </Link>
+          </NavItem>
+          <NavItem as="li">
+            <Link to="/#contact" className="nav-link" activeClassName="active">
+              Contact me
             </Link>
           </NavItem>
         </Nav>

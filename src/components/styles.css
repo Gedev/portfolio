@@ -1,0 +1,24 @@
+html {
+    background-color: #0c5460;
+    scroll-behavior: smooth;
+}
+
+#navbarResponsive {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+section #profile {
+    height: 768px;
+    width: 100%;
+    background-color: #ffe9c3;
+}
+
+section #skills {
+    height: 768px;
+    width: 100% !important;
+    background-color: #e9ecef;
+}
