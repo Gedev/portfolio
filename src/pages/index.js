@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
 
-import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Skills from "../components/body/skills"
@@ -10,10 +9,12 @@ import Contact from "../components/body/contact"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/styles.css";
+import Header from "../components/header";
 
 
 const IndexPage = () => (
-    <Layout>
+    <>
+      <Header />
         <SEO title="Home"/>
         <h1>Hi there,</h1>
         <p>I am Gerald Devreux, junior web developer currently at the end of a fullstack internship.</p>
@@ -24,7 +25,7 @@ const IndexPage = () => (
         <Profile />
         <Skills />
         <Contact />
-    </Layout>
+    </>
 
 )
 

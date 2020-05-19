@@ -1,6 +1,6 @@
 html {
-    background-color: #0c5460;
     scroll-behavior: smooth;
+    margin-top: 2%;
 }
 
 #navbarResponsive {
@@ -9,16 +9,23 @@ html {
     justify-content: center;
     position: fixed;
     top: 0;
+    height: 10%;
 }
 
 section #profile {
-    height: 768px;
-    width: 100%;
-    background-color: #ffe9c3;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5faf9;
 }
 
 section #skills {
-    height: 768px;
-    width: 100% !important;
+    height: 100vh;
+    width: 100vw;
     background-color: #e9ecef;
+}
+
+section #contact {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5faf9;
 }
