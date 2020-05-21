@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/body/presentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/body/side-projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <updated>1589711681338</updated>
       <workItem from="1589711683682" duration="3980000" />
       <workItem from="1589722754164" duration="7381000" />
-      <workItem from="1590076514067" duration="3956000" />
+      <workItem from="1590076514067" duration="7039000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -136,9 +130,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="29" width="585" height="801" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1589730334572" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589730327085">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="556" y="218" width="840" height="820" key="search.everywhere.popup" timestamp="1590088638122">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589730327085" />
+    <state x="556" y="218" width="840" height="820" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1590088638122" />
   </component>
 </project>
