@@ -12,20 +12,31 @@ html {
     height: 10%;
 }
 
-section #profile {
-    height: 100vh;
-    width: 100vw;
+.blockA {
     background-color: #f5faf9;
 }
 
-section #skills {
-    height: 100vh;
-    width: 100vw;
+.blockB {
     background-color: #e9ecef;
 }
 
-section #contact {
+section {
     height: 100vh;
     width: 100vw;
-    background-color: #f5faf9;
+}
+
+section #presentation {
+
+}
+
+section #profile {
+
+}
+
+section #skills {
+
+}
+
+section #contact {
+
 }

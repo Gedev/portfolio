@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { Form, FormLabel } from "react-bootstrap"
 const Contact = () => (
-    <section id="contact">
-      <h2>Hi from the second page</h2>
+    <section id="contact" className="blockA">
+      <h2>Contact</h2>
       <Form method="post" action="#">
         <FormLabel>
           Name
@@ -22,7 +22,7 @@ const Contact = () => (
           <textarea name="message" id="message" rows="5" />
         </FormLabel>
       </Form>
-        <Link to="/">Go back to the homepage</Link>
+        <Link to="/">Go Up 🔼</Link>
     </section>
 )
 

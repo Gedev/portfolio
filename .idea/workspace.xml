@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/body/presentation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/body/side-projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,16 @@
       <updated>1589711681338</updated>
       <workItem from="1589711683682" duration="3980000" />
       <workItem from="1589722754164" duration="7381000" />
+      <workItem from="1590076514067" duration="3956000" />
     </task>
+    <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
+      <created>1589874415195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589874415195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,11 +107,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="538" y="139" key="#JavaScript" timestamp="1589724696415">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="538" y="139" key="#JavaScript/0.0.1600.860@0.0.1600.860" timestamp="1589724696415" />
+    <state x="505" y="11" width="964" height="1012" key="CommitChangelistDialog2" timestamp="1589874414565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="505" y="11" width="964" height="1012" key="CommitChangelistDialog2/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874414565" />
+    <state x="211" y="83" key="DiffContextDialog" timestamp="1589874299856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="211" y="83" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874299856" />
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1589874705955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874423093" />
     <state x="507" y="29" width="585" height="801" key="find.popup" timestamp="1589730334572">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Profile = () => (
-    <section>
+    <section className="blockB">
         <div id="profile">
             <h2>Profile</h2>
             <h3>Experience</h3>

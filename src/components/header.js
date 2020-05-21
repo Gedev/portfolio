@@ -15,6 +15,11 @@ const Header = ({ siteTitle }) => (
       <NavbarCollapse id="navbarResponsive">
         <Nav as="ul">
           <NavItem as="li">
+            <Link to="/#home" className="nav-link" activeClassName="active">
+              Home
+            </Link>
+          </NavItem>
+          <NavItem as="li">
             <Link to="/#profile" className="nav-link" activeClassName="active">
             Profile
             </Link>
@@ -25,8 +30,8 @@ const Header = ({ siteTitle }) => (
             </Link>
           </NavItem>
           <NavItem as="li">
-            <Link to="/#projects" className="nav-link" activeClassName="active">
-              Projects
+            <Link to="/#side-projects" className="nav-link" activeClassName="active">
+              Side Projects
             </Link>
           </NavItem>
           <NavItem as="li">
