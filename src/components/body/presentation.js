@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+import Image from "../image";
+import { graphql} from "gatsby";
+import img from "gatsby-image";
 
 const Presentation = () => (
   <section  id="presentation" className="blockA">
@@ -12,8 +15,10 @@ const Presentation = () => (
           front-end offers.</p>
         <p>Don't hesitate to <Link to="/#contact">contact me !</Link></p>
 
-      <Link to="/page-2/">Go to page 2</Link>
+        {/*<Img fluid={props.data.file.childImageSharp.fluid} />*/}
 
+
+        <Link to="/page-2/">Go to page 2</Link>
     </div>
   </section>
 )
