@@ -20,142 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/027-php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/001-nginx.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/002-raspberry-pi.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/003-java.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/004-docker.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/005-python.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/006-react.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/007-haskell.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/008-lisp.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/009-common-lisp.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/010-github.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/011-scratch.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/012-postscript.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/013-visual-basic.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/014-delphi.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/015-ruby.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/016-c-1.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/017-composer.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/018-c.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/019-go-lang.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/020-gnu-bash.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/021-mysql.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/022-swiftify.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/023-scala.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/024-swift.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/025-typescript.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/026-sass.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/027-php.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/028-webhook.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/029-javascript.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/030-html-5.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/031-css.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/eps/032-nodejs.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/license/license.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/001-nginx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/002-raspberry-pi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/003-java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/004-docker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/005-python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/006-react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/007-haskell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/008-lisp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/009-common-lisp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/010-github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/011-scratch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/012-postscript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/013-visual-basic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/014-delphi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/015-ruby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/016-c-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/017-composer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/018-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/019-go-lang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/020-gnu-bash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/021-mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/022-swiftify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/023-scala.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/024-swift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/025-typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/026-sass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/027-php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/028-webhook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/029-javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/030-html-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/031-css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/032-nodejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/001-nginx.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/002-raspberry-pi.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/003-java.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/004-docker.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/005-python.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/006-react.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/007-haskell.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/008-lisp.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/009-common-lisp.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/010-github.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/011-scratch.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/012-postscript.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/013-visual-basic.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/014-delphi.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/015-ruby.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/016-c-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/017-composer.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/018-c.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/019-go-lang.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/020-gnu-bash.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/021-mysql.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/022-swiftify.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/023-scala.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/024-swift.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/025-typescript.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/026-sass.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/027-php.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/028-webhook.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/029-javascript.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/030-html-5.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/031-css.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/psd/032-nodejs.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/001-nginx.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/002-raspberry-pi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/003-java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/004-docker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/005-python.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/006-react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/007-haskell.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/008-lisp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/009-common-lisp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/010-github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/011-scratch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/012-postscript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/013-visual-basic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/014-delphi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/015-ruby.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/016-c-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/017-composer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/018-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/019-go-lang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/020-gnu-bash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/021-mysql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/022-swiftify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/023-scala.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/024-swift.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/025-typescript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/026-sass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/027-php.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/028-webhook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/029-javascript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/030-html-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/031-css.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/svg/032-nodejs.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +76,8 @@
       <workItem from="1589711683682" duration="3980000" />
       <workItem from="1589722754164" duration="7381000" />
       <workItem from="1590076514067" duration="7039000" />
+      <workItem from="1590398479118" duration="1647000" />
+      <workItem from="1590409989968" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
