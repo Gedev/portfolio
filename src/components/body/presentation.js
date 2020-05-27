@@ -11,8 +11,7 @@ const Presentation = () => (
 
         <p>I am Gerald Devreux, junior web developer currently at the end of a fullstack internship.</p>
 
-        <p>I am actually searching for an opportunity in web development, as a back-end developer, but still open to
-          front-end offers.</p>
+        <p>I am actually searching for an opportunity in web development, as a fullstack developer or back-end developer</p>
         <p>Don't hesitate to <Link to="/#contact">contact me !</Link></p>
 
         {/*<Img fluid={props.data.file.childImageSharp.fluid} />*/}

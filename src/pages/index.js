@@ -16,7 +16,7 @@ import SideProjects from "../components/body/side-projects";
 const IndexPage = () => (
     <>
       <Header />
-        <SEO title="Home"/>
+        <SEO title="Gedev"/>
         <Presentation />
         <Profile />
         <Skills />
