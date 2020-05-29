@@ -22,7 +22,6 @@ const IndexPage = () => (
         <Skills />
         <SideProjects />
         <Contact />
-
     </>
 
 )
