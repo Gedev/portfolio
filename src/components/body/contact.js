@@ -6,12 +6,18 @@ const Contact = () => (
       <h2>Contact</h2>
       <Form method="post" action="#">
 
-        <FormGroup>
+        <div data-sal="slide-up"
+             data-sal-delay="300"
+             data-sal-easing="ease">
+        <FormGroup data-sal="slide-up"
+                   data-sal-delay="300"
+                   data-sal-easing="ease">
           <FormLabel>
             Name
             <input type="text" name="name" id="name" />
           </FormLabel>
         </FormGroup>
+        </div>
 
         <FormGroup>
           <FormLabel>
