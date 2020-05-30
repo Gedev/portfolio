@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/stage/hdm-network-website" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +72,8 @@
       <updated>1589711681338</updated>
       <workItem from="1589711683682" duration="3980000" />
       <workItem from="1589722754164" duration="7381000" />
-      <workItem from="1590076514067" duration="7039000" />
+      <workItem from="1590076514067" duration="7675000" />
+      <workItem from="1590130224301" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -118,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="211" y="83" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874299856" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1589874705955">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1590130514363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1590130514363" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
