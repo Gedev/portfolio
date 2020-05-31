@@ -9,21 +9,27 @@ const Profile = () => (
             Stagiaire en développement Web - HommeDeMetierBE
             2020 - 2,5 mois
             Création des plateformes web pour le site HommeDeMetier sous la méthode Agile/SCRUM.
-
+            </p>
+            <p>
             Technologies :
             HTML / JS / CSS
             React/Rematch/Redux
             Symfony
             Docker
-
+            </p>
+            <p>
+            <h6>
             Outils :
+            </h6>
             Hubspot API
             Bitbucket
             Clubhouse
             Slack
             Git
-
+            </p>
+            <h6>
             Méthodes de gestion de travail :
+            </h6>
             Méthode Agile/SCRUM
             Peercoding
             Game Development - Technobel
@@ -54,7 +60,7 @@ const Profile = () => (
 
             ATOUTS
             Curieux, passionné, impliqué, ponctuel
-            </p>
+
         </div>
     </section>
 )
