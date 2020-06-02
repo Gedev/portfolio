@@ -30,6 +30,12 @@ const Skills = () => (
             <div className="skills-progress-bar">
               <div className="skills skills-color react">50%</div>
             </div>
+
+            <h5>Tools</h5>
+            <span>Git</span>
+            <div className="skills-progress-bar">
+              <div className="skills skills-color git">70%</div>
+            </div>
         </div>
     </section>
 )

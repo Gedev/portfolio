@@ -48,7 +48,7 @@ section #contact {
 .skills-progress-bar {
     width: 40%; /* Full width */
     background-color: #ddd; /* Grey background */
-    }
+}
 
 .skills {
     text-align: right; /* Right-align text */
@@ -60,7 +60,7 @@ section #contact {
 .skills-color {
     width: 90%;
     background-color: #4CAF50;
-} /* Green */
+}
 
 .css {
     width: 70%;
@@ -75,7 +75,6 @@ section #contact {
 .laravel {
     width: 65%;
     background-color: #f55050;
-
 }
 
 .symfony {
@@ -85,5 +84,10 @@ section #contact {
 
 .react {
     width: 50%;
+    background-color: #6240b7;
+}
+
+.git {
+    width: 70%;
     background-color: #6240b7;
 }
