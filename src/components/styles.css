@@ -91,3 +91,7 @@ section #contact {
     width: 70%;
     background-color: #6240b7;
 }
+
+section h5 {
+    padding-top: 20px;
+}
