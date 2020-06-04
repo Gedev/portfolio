@@ -95,3 +95,7 @@ section #contact {
 section h5 {
     padding-top: 20px;
 }
+
+.card {
+    margin-bottom: 30px !important;
+}
