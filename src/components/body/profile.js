@@ -48,29 +48,36 @@ const Profile = () => (
               </Card.Body>
             </Card>
 
-            <h4>FORMATIONS</h4>
-            Web Development (3ème) — IEPSCF
-            2014 - PRESENT / Institut d’enseignement de promotion sociale
-            Apprentissage et développement de solutions web utilisant des technologies tels que PHP, MySQL, JavaScript et HTML5/CSS. Couverture de solutions existantes comme Drupal. Réseau, web design et UML.
-            Apprentissage et spécialisation dans un framework (Laravel).
-            Informatique de gestion — IESN
-            2013 - 2014 / Institut d'Enseignement Supérieur de Namur
-            Apprentissage de l’algorithmique via les langages Java et C++. Développement d’un site portfolio.
-            Infographie — HEAJ
-            2011 - 2013 / Haute École Albert Jacquard, Namur
-            Apprentissage des techniques de design et modélisation, et des programmes associés tels que Photoshop, Illustrator, Autodesk Maya, ...
-            CESS — Athénée Royale
-            2011 / La Roche-en-Ardenne
-            Technique de transition - Science de l’informatique.
-            PORTFOLIO
+          <Card>
+            <Card.Header>
+              <h5>FORMATIONS</h5>
+            </Card.Header>
+            <Card.Body>
+              <Card.Title>   Web Development (3ème) — IEPSCF
+                2014 - PRESENT / Institut d’enseignement de promotion sociale</Card.Title>
+              <Card.Text>
+                Apprentissage et développement de solutions web utilisant des technologies tels que PHP, MySQL, JavaScript et HTML5/CSS. Couverture de solutions existantes comme Drupal. Réseau, web design et UML.
+                Apprentissage et spécialisation dans un framework (Laravel).
+                Informatique de gestion — IESN
+                2013 - 2014 / Institut d'Enseignement Supérieur de Namur
+                Apprentissage de l’algorithmique via les langages Java et C++. Développement d’un site portfolio.
+                Infographie — HEAJ
+                2011 - 2013 / Haute École Albert Jacquard, Namur
+                Apprentissage des techniques de design et modélisation, et des programmes associés tels que Photoshop, Illustrator, Autodesk Maya, ...
+                CESS — Athénée Royale
+                2011 / La Roche-en-Ardenne
+                Technique de transition - Science de l’informatique.
+                PORTFOLIO
 
-            LANGUES
-            Français : langue maternelle
-            Anglais : niveau B1
+                LANGUES
+                Français : langue maternelle
+                Anglais : niveau B1
 
-            ATOUTS
-            Curieux, passionné, impliqué, ponctuel
-
+                ATOUTS
+                Curieux, passionné, impliqué, ponctuel
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
     </section>
 )
