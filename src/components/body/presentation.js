@@ -15,10 +15,11 @@ const Presentation = () => (
         <p>Don't hesitate to <Link to="/#contact">contact me !</Link></p>
 
         {/*<Img fluid={props.data.file.childImageSharp.fluid} />*/}
-        <a href="#">
+
+      <p><a href="#">
         <img alt="Qries" src="../../images/027-php.png"
              width="150" height="70"/>
-        </a>
+      </a></p>
         <Link to="/page-2/">Go to page 2</Link>
     </div>
   </section>

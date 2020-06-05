@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +78,10 @@
       <workItem from="1590398479118" duration="1647000" />
       <workItem from="1590409989968" duration="2013000" />
       <workItem from="1590571217771" duration="1600000" />
-      <workItem from="1590608547641" duration="5448000" />
-      <workItem from="1590749718077" duration="1797000" />
+      <workItem from="1590608547641" duration="4802000" />
+      <workItem from="1591133348482" duration="1819000" />
+      <workItem from="1591211568399" duration="568000" />
+      <workItem from="1591301806060" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>

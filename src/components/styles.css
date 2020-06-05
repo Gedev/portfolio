@@ -44,3 +44,58 @@ section #skills {
 section #contact {
 
 }
+
+.skills-progress-bar {
+    width: 40%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.skills-color {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 70%;
+    background-color: #1398c4;
+}
+
+.js {
+    width: 75%;
+    background-color: #ffaf14;
+}
+
+.laravel {
+    width: 65%;
+    background-color: #f55050;
+}
+
+.symfony {
+    width: 45%;
+    background-color: #343432;
+}
+
+.react {
+    width: 50%;
+    background-color: #6240b7;
+}
+
+.git {
+    width: 70%;
+    background-color: #6240b7;
+}
+
+section h5 {
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 30px !important;
+}
