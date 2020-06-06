@@ -36,6 +36,10 @@ const Skills = () => (
             <div className="skills-progress-bar">
               <div className="skills skills-color git">70%</div>
             </div>
+            <span>Docker</span>
+            <div className="skills-progress-bar">
+              <div className="skills skills-color docker">40%</div>
+            </div>
         </div>
     </section>
 )

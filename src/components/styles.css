@@ -99,3 +99,8 @@ section h5 {
 .card {
     margin-bottom: 30px !important;
 }
+
+.docker {
+    width: 40%;
+    background-color: #6240b7;
+}
