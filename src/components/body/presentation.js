@@ -6,7 +6,11 @@ import img from "gatsby-image";
 
 const Presentation = () => (
   <section  id="presentation" className="blockA">
-    <div>
+    <div  data-sal="slide-up"
+          data-sal-delay="1200"
+          data-sal-easing="ease"
+          data-sal-duration="1000"
+            >
         <h1>Hi there,</h1>
 
         <p>I am Gerald Devreux, junior web developer currently at the end of a fullstack internship.</p>
