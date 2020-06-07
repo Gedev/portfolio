@@ -9,7 +9,7 @@ import Presentation from "../components/body/presentation";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/styles.css";
-import Header from "../components/header";
+import sal from 'sal.js';import Header from "../components/header";
 import SideProjects from "../components/body/side-projects";
 
 
