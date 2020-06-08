@@ -10,8 +10,14 @@ html {
     position: fixed;
     z-index: 1;
     top: 0;
-    height: 10%;
+    left: 0;
+    height: 8%;
     background-color: white;
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: black !important;
 }
 
 .blockA {
@@ -25,7 +31,7 @@ html {
 section {
     height: 100vh;
     width: 100vw;
-    padding: 2%
+    padding: 5%
 }
 
 section div {
@@ -44,11 +50,20 @@ section #profile {
 }
 
 section #skills {
-    margin: 2px;
+
 }
 
 section #contact {
 
+}
+
+.go-up {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: stretch;
 }
 
 .skills-progress-bar {

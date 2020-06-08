@@ -1,11 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import {Button, Card, Form, FormGroup, FormLabel} from "react-bootstrap"
+import { Col, Button, Form, FormGroup, FormLabel, Row} from "react-bootstrap"
 const Contact = () => (
     <section id="contact" className="blockA">
       <h2>Contact</h2>
-
-
       <Form method="post" action="#">
 
 
@@ -14,10 +12,21 @@ const Contact = () => (
              data-sal-easing="ease"
              data-sal-duration="1000">
         <FormGroup>
-          <FormLabel>
-            Name
-          </FormLabel>
-          <input type="text" name="name" id="name" />
+
+          <Row>
+            <Col>
+              <FormLabel>
+                Your firstname
+              </FormLabel>
+              <Form.Control placeholder="First name" />
+            </Col>
+            <Col>
+              <FormLabel>
+                Your name
+              </FormLabel>
+              <Form.Control placeholder="Last name" />
+            </Col>
+          </Row>
         </FormGroup>
         </div>
 
@@ -29,7 +38,7 @@ const Contact = () => (
           <FormLabel>
             Email
           </FormLabel>
-          <input type="email" name="email" id="email"/>
+          <Form.Control type="email" placeholder="name@example.com" />
         </FormGroup>
         </div>
 
@@ -40,8 +49,9 @@ const Contact = () => (
         <FormGroup>
           <FormLabel>
             Subject
-            <input type="text" name="subject" id="subject" />
           </FormLabel>
+            <Form.Control type="text" placeholder="Subject" />
+
         </FormGroup>
         </div>
 
@@ -52,7 +62,7 @@ const Contact = () => (
         <FormGroup>
           <FormLabel>
             Message
-            <textarea name="message" id="message" rows="5" />
+            <Form.Control as="textarea" rows="5" placeholder="Your message" />
           </FormLabel>
         </FormGroup>
         </div>
@@ -67,7 +77,9 @@ const Contact = () => (
         </div>
       </Form>
 
+      <div className="go-up">
         <Link to="/">Go Up 🔼</Link>
+      </div>
     </section>
 )
 
