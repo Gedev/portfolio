@@ -7,7 +7,12 @@ const Contact = () => (
 
 
       <Form method="post" action="#">
-        <div>
+
+
+        <div data-sal="slide-up"
+             data-sal-delay="1200"
+             data-sal-easing="ease"
+             data-sal-duration="1000">
         <FormGroup>
           <FormLabel>
             Name
@@ -16,7 +21,10 @@ const Contact = () => (
         </FormGroup>
         </div>
 
-        <div>
+        <div data-sal="slide-up"
+             data-sal-delay="200"
+             data-sal-easing="ease"
+             data-sal-duration="1000">
         <FormGroup>
           <FormLabel>
             Email
@@ -25,7 +33,10 @@ const Contact = () => (
         </FormGroup>
         </div>
 
-        <div>
+        <div data-sal="slide-up"
+             data-sal-delay="400"
+             data-sal-easing="ease"
+             data-sal-duration="1000">
         <FormGroup>
           <FormLabel>
             Subject
@@ -34,7 +45,10 @@ const Contact = () => (
         </FormGroup>
         </div>
 
-        <div>
+        <div data-sal="slide-up"
+             data-sal-delay="600"
+             data-sal-easing="ease"
+             data-sal-duration="1000">
         <FormGroup>
           <FormLabel>
             Message
@@ -43,7 +57,10 @@ const Contact = () => (
         </FormGroup>
         </div>
 
-        <div>
+        <div data-sal="slide-up"
+            data-sal-delay="800"
+            data-sal-easing="ease"
+            data-sal-duration="1000">
         <Button variant="primary" type="submit">
           Submit
         </Button>

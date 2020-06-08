@@ -1,5 +1,6 @@
 import React from "react"
 
+import Header from "../components/header";
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Skills from "../components/body/skills"
@@ -10,6 +11,7 @@ import Presentation from "../components/body/presentation";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/styles.css";
 import SideProjects from "../components/body/side-projects";
+
 
 
 const IndexPage = () => (
