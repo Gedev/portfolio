@@ -17,6 +17,7 @@
     "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^2.6.9",
     "gatsby-source-filesystem": "^2.3.0",
+    "gatsby-source-multi-api": "^1.0.5",
     "gatsby-transformer-sharp": "^2.5.3",
     "gh-pages": "^2.2.0",
     "prop-types": "^15.7.2",

@@ -38,6 +38,16 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-scroll-reveal`
-],
+    `gatsby-plugin-scroll-reveal`,
+    //This plugin exists only once but can consume an array of endpoints
+    {
+      resolve: 'gatsby-source-multi-api',
+      options: {
+      apis: [
+        'https://api.medium.com/v1/users/1ed20936e1ce264eca73f5d9174d8de4c7af25ad3eb39d4740345326e0cf6c399/publications'
+      ],
+
+      },
+    }
+  ],
 }

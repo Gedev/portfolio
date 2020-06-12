@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,12 @@
       <workItem from="1591301806060" duration="1817000" />
       <workItem from="1591480386695" duration="436000" />
       <workItem from="1591480844345" duration="22000" />
-      <workItem from="1591540769674" duration="14389000" />
+      <workItem from="1591540769674" duration="14993000" />
+      <workItem from="1591725422825" duration="49000" />
+      <workItem from="1591774291842" duration="2917000" />
+      <workItem from="1591908030701" duration="638000" />
+      <workItem from="1591909821195" duration="543000" />
+      <workItem from="1591970419499" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -129,9 +136,10 @@
     </state>
     <state x="180" y="99" width="1280" height="692" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1591548459425" />
     <state x="211" y="83" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874299856" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1589874705955">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1591725478174">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="573" y="179" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591725478174" />
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
       <screen x="0" y="0" width="1920" height="1040" />
