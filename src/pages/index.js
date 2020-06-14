@@ -1,7 +1,5 @@
 import React from "react"
-
 import Header from "../components/header";
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Skills from "../components/body/skills"
 import Profile from "../components/body/profile"

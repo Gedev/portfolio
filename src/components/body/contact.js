@@ -73,7 +73,7 @@ const Contact = () => (
       </Form>
 
       <div className="go-up">
-        <Link to="/">Go Up 🔼</Link>
+        <Link to="/">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
       </div>
     </section>
 )
