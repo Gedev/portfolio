@@ -1,7 +1,10 @@
 import React from "react";
+import Col from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 
 const Skills = () => (
     <section id="skills" className="blockA">
+      <Container>
         <div>
             <h2>Skills</h2>
             <span>HTML 5</span>
@@ -72,6 +75,7 @@ const Skills = () => (
               <div className="skills skills-color docker">40%</div>
             </div>
         </div>
+      </Container>
     </section>
 )
 

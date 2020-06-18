@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,8 @@
       <workItem from="1591909821195" duration="543000" />
       <workItem from="1591970419499" duration="2053000" />
       <workItem from="1592166843538" duration="2605000" />
-      <workItem from="1592430489572" duration="62000" />
+      <workItem from="1592430489572" duration="230000" />
+      <workItem from="1592516570636" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -139,6 +141,22 @@
     </state>
     <state x="573" y="179" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591725478174" />
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
+    <state width="1865" height="257" key="GridCell.Tab.0.bottom" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.center" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.left" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.right" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
