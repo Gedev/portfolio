@@ -1,8 +1,9 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 
 const Profile = () => (
     <section className="blockB" id="profile">
+      <Container>
         <div>
           <h2>Profile</h2>
           <h3>EXPERIENCE</h3>
@@ -48,6 +49,7 @@ const Profile = () => (
               </Card.Body>
             </Card>
         </div>
+      </Container>
     </section>
 )
 

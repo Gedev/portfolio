@@ -1,6 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import Container from "react-bootstrap/Container";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Skills = () => (
     <section id="skills" className="blockA">
@@ -13,7 +12,7 @@ const Skills = () => (
                  data-sal-easing='ease'
                  data-sal-delay='100'
                  data-sal-duration='1000'>
-              <div className="skills skills-color
+              <div className="skills skills-color html5
                 ">90%</div>
             </div>
             <span>CSS 3</span>
@@ -23,12 +22,19 @@ const Skills = () => (
                  data-sal-duration='1000'>
               <div className="skills skills-color css">70%</div>
             </div>
+            <span>PhP</span>
+            <div className="skills-progress-bar"  data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='300'
+                 data-sal-duration='1000'>
+              <div className="skills skills-color php">75%</div>
+            </div>
             <span>Javascript</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='300'
                  data-sal-duration='1000'>
-              <div className="skills skills-color js">75%</div>
+              <div className="skills skills-color js">70%</div>
             </div>
             <h5>Frameworks</h5>
             <span>Laravel</span>

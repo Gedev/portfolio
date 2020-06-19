@@ -1,8 +1,10 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { Link } from "gatsby";
 
 const Presentation = () => (
   <section  id="presentation" className="blockA">
+    <Container>
     <div  data-sal="slide-up"
           data-sal-delay="1200"
           data-sal-easing="ease"
@@ -17,6 +19,7 @@ const Presentation = () => (
 
         <Link to="/page-2/">Go to page 2</Link>
     </div>
+    </Container>
   </section>
 )
 

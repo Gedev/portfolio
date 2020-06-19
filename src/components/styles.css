@@ -84,14 +84,24 @@ section #contact {
     background-color: #4CAF50;
 }
 
+.html5 {
+    width: 90%;
+    background-color: #de4b25;
+}
+
 .css {
     width: 70%;
-    background-color: #1398c4;
+    background-color: #2195f1;
 }
 
 .js {
-    width: 75%;
+    width: 70%;
     background-color: #ffaf14;
+}
+
+.php {
+    width: 75%;
+    background-color: #777bb3;
 }
 
 .laravel {
