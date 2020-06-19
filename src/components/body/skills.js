@@ -1,11 +1,12 @@
 import React from "react";
-import Col from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 const Skills = () => (
     <section id="skills" className="blockA">
       <Container>
-        <div>
+        <Row>
+          <Col>
             <h2>Skills</h2>
             <span>HTML 5</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
@@ -51,7 +52,8 @@ const Skills = () => (
                  data-sal-duration='1000'>
               <div className="skills skills-color react">50%</div>
             </div>
-
+          </Col>
+          <Col>
             <h5>Tools</h5>
             <span>Git</span>
             <div className="skills-progress-bar" data-sal='slide-up'
@@ -74,7 +76,8 @@ const Skills = () => (
                  data-sal-duration='1000'>
               <div className="skills skills-color docker">40%</div>
             </div>
-        </div>
+          </Col>
+        </Row>
       </Container>
     </section>
 )

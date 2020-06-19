@@ -68,7 +68,7 @@ section #contact {
 }
 
 .skills-progress-bar {
-    width: 40%; /* Full width */
+    width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
 }
 
@@ -106,7 +106,7 @@ section #contact {
 
 .react {
     width: 50%;
-    background-color: #6240b7;
+    background-color: #27dcfa;
 }
 
 .git {
