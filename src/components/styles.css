@@ -59,17 +59,14 @@ section #contact {
 }
 
 .go-up {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-    align-content: stretch;
+    position: absolute !important;
+    text-align: right !important;
 }
 
 .skills-progress-bar {
     width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .skills {

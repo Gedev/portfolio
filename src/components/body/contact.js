@@ -73,9 +73,8 @@ const Contact = () => (
         </Button>
       </Form>
 
-      <div className="go-up">
-        <Link to="/">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
-      </div>
+        <Link to="/" className="go-up">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
+
       </Container>
     </section>
 )
