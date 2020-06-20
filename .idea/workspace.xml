@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="" />
+    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/side-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/side-projects.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,7 @@
       <workItem from="1592430489572" duration="230000" />
       <workItem from="1592516570636" duration="1418000" />
       <workItem from="1592565488066" duration="6086000" />
+      <workItem from="1592683183668" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
