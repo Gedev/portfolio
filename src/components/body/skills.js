@@ -59,6 +59,13 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color react">50%</div>
             </div>
+            <span>Gatsby</span>
+            <div className="skills-progress-bar" data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='500'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color gatsby">30%</div>
+            </div>
           </Col>
           <Col>
             <h5>Tools</h5>

@@ -120,6 +120,11 @@ section #contact {
     background-color: #27dcfa;
 }
 
+.gatsby {
+    width: 30%;
+    background-color: #633295;
+}
+
 .git {
     width: 70%;
     background-color: #6240b7;

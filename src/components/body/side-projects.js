@@ -45,6 +45,7 @@ const SideProjects = () => (
               <Card.Title>Preview</Card.Title>
               <Card.Text>
                 <img src={poulpatose} alt="darknlightpreview" />
+                Poulpatose, the card game I created and printed during the Technobel formation.
               </Card.Text>
             </Card.Body>
           </Card>
