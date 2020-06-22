@@ -139,6 +139,11 @@ section #contact {
     background-color: #6240b7;
 }
 
+.ts {
+    width: 50%;
+    background-color: #0077c6;
+}
+
 .logos img {
     width: 50px;
     margin-right: 10px;

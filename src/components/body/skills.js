@@ -37,6 +37,13 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color js">70%</div>
             </div>
+            <span>Typescript</span>
+            <div className="skills-progress-bar"  data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='300'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color ts">50%</div>
+            </div>
             <h5>Frameworks</h5>
             <span>Laravel</span>
             <div className="skills-progress-bar" data-sal='slide-up'

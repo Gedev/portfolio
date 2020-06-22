@@ -40,7 +40,7 @@ const Profile = () => (
                   <p className="logos">
                     <OverlayTrigger
                       placement="top"
-                      delay={{ show: 250, hide: 400 }}
+                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("HTML5")}
                     >
                       <img src={html5Logo} alt="html5Logo" />
@@ -48,7 +48,7 @@ const Profile = () => (
 
                     <OverlayTrigger
                       placement="top"
-                      delay={{ show: 250, hide: 400 }}
+                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("Javascript")}
                     >
                       <img src={javascriptLogo} alt="javascriptLogo" />
@@ -56,7 +56,7 @@ const Profile = () => (
 
                     <OverlayTrigger
                       placement="top"
-                      delay={{ show: 250, hide: 400 }}
+                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("CSS3")}
                     >
                       <img src={cssLogo} alt="cssLogo" />
@@ -64,7 +64,7 @@ const Profile = () => (
 
                     <OverlayTrigger
                       placement="top"
-                      delay={{ show: 250, hide: 400 }}
+                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("React")}
                     >
                       <img src={reactLogo} alt="reactLogo" />
@@ -72,7 +72,7 @@ const Profile = () => (
 
                     <OverlayTrigger
                       placement="top"
-                      delay={{ show: 250, hide: 400 }}
+                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("TypeScript")}
                     >
                       <img src={typescriptLogo} alt="typescriptLogo" />
