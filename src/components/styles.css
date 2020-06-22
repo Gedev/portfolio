@@ -139,3 +139,7 @@ section #contact {
     background-color: #6240b7;
 }
 
+.logos img {
+    width: 50px;
+    margin-right: 10px;
+}

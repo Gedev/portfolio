@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import Image from "../image";
 
 import preview_dark_n_light from "../../images/preview_dark_n_light.png";
 import poulpatose from "../../images/poulpatose.jpg";
@@ -10,8 +9,8 @@ const SideProjects = () => (
     <Container>
 
       <h2>Side Projects</h2>
-      *Waiting for current meetups*
-      *Waiting for technology watch module*
+      {/**Waiting for current meetups**/}
+      {/**Waiting for technology watch module**/}
       <h4>
         <p>Actually improving my skills in :</p>
       </h4>
@@ -45,7 +44,7 @@ const SideProjects = () => (
               <Card.Title>Preview</Card.Title>
               <Card.Text>
                 <img src={poulpatose} alt="darknlightpreview" />
-                Poulpatose, the card game I created and printed during the Technobel formation.
+                Poulpatose, the card game I created and printed.
               </Card.Text>
             </Card.Body>
           </Card>
