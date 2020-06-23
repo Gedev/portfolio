@@ -7,6 +7,8 @@ import javascriptLogo from "../../images/software-development-logos/png/029-java
 import cssLogo from "../../images/software-development-logos/png/031-css.png";
 import reactLogo from "../../images/software-development-logos/png/006-react.png";
 import typescriptLogo from "../../images/software-development-logos/png/025-typescript.png";
+import dockerLogo from "../../images/software-development-logos/png/004-docker.png";
+import symfonyLogo from "../../images/software-development-logos/png/033-symfony.png";
 
 function renderTooltip(props) {
   return (
@@ -26,7 +28,7 @@ const Profile = () => (
               <Card.Header>
                 <h5>
                 Stagiaire en développement Web - HommeDeMetierBE
-                <p>2020 - 2.5 month</p>
+                <p>2020 - 2.5 months</p>
                 </h5>
               </Card.Header>
               <Card.Header>
@@ -78,7 +80,29 @@ const Profile = () => (
                       <img src={typescriptLogo} alt="typescriptLogo" />
                     </OverlayTrigger>
 
-                    / Rematch / Redux / Symfony / Docker
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("Docker")}
+                    >
+                      <img src={dockerLogo} alt="dockerLogo" />
+                    </OverlayTrigger>
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("Symfony")}
+                    >
+                      <img src={symfonyLogo} alt="symfonyLogo" />
+                    </OverlayTrigger>
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("Symfony")}
+                    >
+                      <img src={typescriptLogo} alt="typescriptLogo" />
+                    </OverlayTrigger>
+
+                    / Rematch / Redux /
 
                   </p>
                   <p>
@@ -98,9 +122,19 @@ const Profile = () => (
           <Card>
               <Card.Header>
                 <h5>Game Development - Technobel
-                  2016 - 3 mois</h5>
+                  2016 - 3 months</h5>
               </Card.Header>
               <Card.Body>
+                <Card.Title>Technologies</Card.Title>
+                <p className="logos">
+                  <OverlayTrigger
+                    placement="top"
+                    delay={{ show: 0, hide: 0 }}
+                    overlay={renderTooltip("Javascript")}
+                  >
+                    <img src={javascriptLogo} alt="javascriptLogo" />
+                  </OverlayTrigger>
+                </p>
                 <Card.Title>Description</Card.Title>
                 <Card.Text>
                   Développement de jeu sur navigateur en JS. Algorithmique, game engine, POO.
