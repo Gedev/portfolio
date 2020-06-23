@@ -13,6 +13,7 @@ import gitLogo from "../../images/software-development-logos/png/034-git.png";
 import rematchLogo from "../../images/software-development-logos/png/035-rematch.svg";
 import reduxLogo from "../../images/software-development-logos/png/036-redux.svg";
 import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
+import phpLogo from "../../images/software-development-logos/png/027-php.png";
 
 function renderTooltip(props) {
   return (
@@ -57,6 +58,14 @@ const Profile = () => (
                     >
                       <img src={javascriptLogo} alt="javascriptLogo" />
                   </OverlayTrigger>
+
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("PhP")}
+                    >
+                      <img src={phpLogo} alt="phpLogo" />
+                    </OverlayTrigger>
 
                     <OverlayTrigger
                       placement="top"

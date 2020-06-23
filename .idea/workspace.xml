@@ -97,7 +97,7 @@
       <workItem from="1592683183668" duration="1812000" />
       <workItem from="1592764156926" duration="4366000" />
       <workItem from="1592856746811" duration="3580000" />
-      <workItem from="1592929178204" duration="8635000" />
+      <workItem from="1592929178204" duration="9815000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
