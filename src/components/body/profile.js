@@ -9,6 +9,10 @@ import reactLogo from "../../images/software-development-logos/png/006-react.png
 import typescriptLogo from "../../images/software-development-logos/png/025-typescript.png";
 import dockerLogo from "../../images/software-development-logos/png/004-docker.png";
 import symfonyLogo from "../../images/software-development-logos/png/033-symfony.png";
+import gitLogo from "../../images/software-development-logos/png/034-git.png";
+import rematchLogo from "../../images/software-development-logos/png/035-rematch.svg";
+import reduxLogo from "../../images/software-development-logos/png/036-redux.svg";
+import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
 
 function renderTooltip(props) {
   return (
@@ -83,35 +87,57 @@ const Profile = () => (
                     <OverlayTrigger
                       placement="top"
                       delay={{ show: 0, hide: 0 }}
-                      overlay={renderTooltip("Docker")}
-                    >
-                      <img src={dockerLogo} alt="dockerLogo" />
-                    </OverlayTrigger>
-                    <OverlayTrigger
-                      placement="top"
-                      delay={{ show: 0, hide: 0 }}
                       overlay={renderTooltip("Symfony")}
                     >
                       <img src={symfonyLogo} alt="symfonyLogo" />
                     </OverlayTrigger>
+
                     <OverlayTrigger
                       placement="top"
                       delay={{ show: 0, hide: 0 }}
-                      overlay={renderTooltip("Symfony")}
+                      overlay={renderTooltip("Rematch")}
                     >
-                      <img src={typescriptLogo} alt="typescriptLogo" />
+                      <img src={rematchLogo} alt="rematchLogo" />
                     </OverlayTrigger>
 
-                    / Rematch / Redux /
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("Redux")}
+                    >
+                      <img src={reduxLogo} alt="reduxLogo" />
+                    </OverlayTrigger>
 
                   </p>
                   <p>
                     <Card.Title>Outils :</Card.Title>
-                    Hubspot API
-                    Bitbucket
-                    Clubhouse
-                    Slack
-                    Git
+                    <p className="logos">
+                      <OverlayTrigger
+                        placement="top"
+                        delay={{ show: 0, hide: 0 }}
+                        overlay={renderTooltip("Hubspot API")}
+                      >
+                        <img src={hubspotLogo} alt="hubspotLogo" />
+                      </OverlayTrigger>
+
+                    <OverlayTrigger
+                      placement="top"
+                      delay={{ show: 0, hide: 0 }}
+                      overlay={renderTooltip("Docker")}
+                    >
+                      <img src={dockerLogo} alt="dockerLogo" />
+                    </OverlayTrigger>
+                      <OverlayTrigger
+                        placement="top"
+                        delay={{ show: 0, hide: 0 }}
+                        overlay={renderTooltip("Git")}
+                      >
+                        <img src={gitLogo} alt="gitLogo" />
+                      </OverlayTrigger>
+                      Bitbucket
+                      Clubhouse
+                      Slack
+                    </p>
                   </p>
                   <Card.Title>Méthodes de gestion de travail :</Card.Title>
                   Méthode Agile/SCRUM
@@ -121,8 +147,8 @@ const Profile = () => (
             </Card>
           <Card>
               <Card.Header>
-                <h5>Game Development - Technobel
-                  2016 - 3 months</h5>
+                <h5>Game Development - Technobel</h5>
+                  2016 - 3 months
               </Card.Header>
               <Card.Body>
                 <Card.Title>Technologies</Card.Title>
@@ -134,6 +160,7 @@ const Profile = () => (
                   >
                     <img src={javascriptLogo} alt="javascriptLogo" />
                   </OverlayTrigger>
+
                 </p>
                 <Card.Title>Description</Card.Title>
                 <Card.Text>

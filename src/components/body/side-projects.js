@@ -28,7 +28,7 @@ const SideProjects = () => (
         <Card.Title>Preview</Card.Title>
         <Card.Text>
           <img src={preview_dark_n_light} alt="darknlightpreview" />
-          Dark'n Light, my personal game using the framework Phaser.
+          <p>Dark'n Light, my personal game using the framework Phaser.</p>
         </Card.Text>
       </Card.Body>
     </Card>
@@ -44,30 +44,13 @@ const SideProjects = () => (
               <Card.Title>Preview</Card.Title>
               <Card.Text>
                 <img src={poulpatose} alt="darknlightpreview" />
-                Poulpatose, the card game I created and printed.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Header>
-              <h5>
-                Project 3
-              </h5>
-            </Card.Header>
-            <Card.Body className="cardBody">
-              <Card.Title>Preview</Card.Title>
-              <Card.Text>
+                <p>Poulpatose, the card game I created and printed.</p>
 
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-
-
-
     </Container>
   </section>
 )

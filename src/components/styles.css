@@ -30,16 +30,13 @@ html {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     padding: 5%
 }
 
 img {
     width: 300px;
-}
-
-section div {
 }
 
 section h5 {
@@ -55,7 +52,6 @@ section #profile {
 }
 
 section #skills {
-
 }
 
 section #contact {
