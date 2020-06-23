@@ -31,7 +31,7 @@ const Profile = () => (
             <Card>
               <Card.Header>
                 <h5>
-                Stagiaire en développement Web - HommeDeMetierBE
+                Intern as FullStack developer - HommeDeMetierBE
                 </h5>
                 <p>2020 - 2.5 months</p>
               </Card.Header>
@@ -140,8 +140,8 @@ const Profile = () => (
 
                     <hr />
                   </p>
-                  <Card.Title>Méthodes de gestion de travail :</Card.Title>
-                  Méthode Agile/SCRUM
+                  <Card.Title>Project management methodology :</Card.Title>
+                  Agile/SCRUM,
                   Peercoding
                 </Card.Text>
               </Card.Body>
