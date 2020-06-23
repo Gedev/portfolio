@@ -143,4 +143,9 @@ section #contact {
 .logos img {
     width: 50px;
     margin-right: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.logos img:hover {
+    transform: scale(1.2);
 }
