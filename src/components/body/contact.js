@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Col, Button, Form, FormGroup, FormLabel, Row} from "react-bootstrap"
+import { Col, Button, Form, FormGroup, FormLabel, Row, Container } from "react-bootstrap"
 const Contact = () => (
     <section id="contact" className="blockA">
+      <Container>
       <h2>Contact</h2>
       <Form method="post" action="https://getform.io/f/343e9536-9a0e-4ce6-a1be-de1b83bb6b90">
 
@@ -72,9 +73,9 @@ const Contact = () => (
         </Button>
       </Form>
 
-      <div className="go-up">
-        <Link to="/">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
-      </div>
+        <Link to="/" className="go-up">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
+
+      </Container>
     </section>
 )
 

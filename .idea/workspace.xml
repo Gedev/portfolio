@@ -59,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,7 +89,16 @@
       <workItem from="1591908030701" duration="638000" />
       <workItem from="1591909821195" duration="543000" />
       <workItem from="1591970419499" duration="2053000" />
-      <workItem from="1592166843538" duration="3659000" />
+      <workItem from="1592166843538" duration="2605000" />
+      <workItem from="1592430489572" duration="230000" />
+      <workItem from="1592516570636" duration="1418000" />
+      <workItem from="1592565488066" duration="6086000" />
+      <workItem from="1592683183668" duration="1812000" />
+      <workItem from="1592764156926" duration="4366000" />
+      <workItem from="1592856746811" duration="3580000" />
+      <workItem from="1592929178204" duration="11190000" />
+      <workItem from="1593022941171" duration="3638000" />
+      <workItem from="1593117678087" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -128,16 +138,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="11" width="964" height="1012" key="CommitChangelistDialog2/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874414565" />
-    <state x="180" y="99" width="1280" height="692" key="DiffContextDialog" timestamp="1591548459425">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="211" y="83" width="1536" height="860" key="DiffContextDialog" timestamp="1592946929149">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="180" y="99" width="1280" height="692" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1591548459425" />
-    <state x="211" y="83" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874299856" />
+    <state x="211" y="83" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592946929149" />
     <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1591725478174">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="573" y="179" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591725478174" />
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
+    <state width="1865" height="257" key="GridCell.Tab.0.bottom" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.center" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.left" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state width="1865" height="257" key="GridCell.Tab.0.right" timestamp="1592430721335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
+    <state x="484" y="20" key="SettingsEditor" timestamp="1592764744754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="484" y="20" key="SettingsEditor/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592764744754" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -5,7 +5,6 @@ html {
 
 #navbarResponsive {
     display: flex !important;
-    align-items: center;
     justify-content: center;
     position: fixed;
     z-index: 1;
@@ -14,10 +13,12 @@ html {
     height: 8%;
     background-color: white;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
 }
 
 .nav-link:hover {
     color: black !important;
+    border-bottom: 2px solid #0f6674;
 }
 
 .blockA {
@@ -29,12 +30,13 @@ html {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     padding: 5%
 }
 
-section div {
+img {
+    width: 300px;
 }
 
 section h5 {
@@ -50,7 +52,6 @@ section #profile {
 }
 
 section #skills {
-
 }
 
 section #contact {
@@ -58,17 +59,14 @@ section #contact {
 }
 
 .go-up {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-    align-content: stretch;
+    position: absolute !important;
+    text-align: right !important;
 }
 
 .skills-progress-bar {
-    width: 40%; /* Full width */
+    width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .skills {
@@ -83,14 +81,24 @@ section #contact {
     background-color: #4CAF50;
 }
 
+.html5 {
+    width: 90%;
+    background-color: #de4b25;
+}
+
 .css {
     width: 70%;
-    background-color: #1398c4;
+    background-color: #2195f1;
 }
 
 .js {
-    width: 75%;
+    width: 70%;
     background-color: #ffaf14;
+}
+
+.php {
+    width: 75%;
+    background-color: #777bb3;
 }
 
 .laravel {
@@ -105,7 +113,12 @@ section #contact {
 
 .react {
     width: 50%;
-    background-color: #6240b7;
+    background-color: #27dcfa;
+}
+
+.gatsby {
+    width: 30%;
+    background-color: #633295;
 }
 
 .git {
@@ -122,3 +135,17 @@ section #contact {
     background-color: #6240b7;
 }
 
+.ts {
+    width: 50%;
+    background-color: #0077c6;
+}
+
+.logos img {
+    width: 50px;
+    margin-right: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.logos img:hover {
+    transform: scale(1.2);
+}
