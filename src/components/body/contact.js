@@ -55,7 +55,6 @@ const Contact = () => (
 
         </FormGroup>
         </div>
-
         <div data-sal="slide-up"
              data-sal-delay="600"
              data-sal-easing="ease"
@@ -67,14 +66,11 @@ const Contact = () => (
           </FormLabel>
         </FormGroup>
         </div>
-
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
-
-        <Link to="/" className="go-up">Go Up <span role="img" aria-label="arrow-up">🔼</span></Link>
-
+        <Button href="#home" variant="dark">Go Up</Button>
       </Container>
     </section>
 )
