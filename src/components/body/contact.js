@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Col, Button, Form, FormGroup, FormLabel, Row, Container } from "react-bootstrap"
+import { Button, Col, Form, FormGroup, FormLabel, Row, Container } from "react-bootstrap"
 const Contact = () => (
     <section id="contact" className="blockA">
       <Container>
