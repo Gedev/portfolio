@@ -43,19 +43,8 @@ section h5 {
     padding-top: 20px;
 }
 
-section #presentation {
-
-}
-
-section #profile {
-
-}
-
-section #skills {
-}
-
-section #contact {
-
+section #footer {
+    min-height: auto;
 }
 
 .go-up {

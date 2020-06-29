@@ -1,12 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
 import { Button, Col, Form, FormGroup, FormLabel, Row, Container } from "react-bootstrap"
 const Contact = () => (
     <section id="contact" className="blockA">
       <Container>
       <h2>Contact</h2>
       <Form method="post" action="https://getform.io/f/343e9536-9a0e-4ce6-a1be-de1b83bb6b90">
-
 
         <div data-sal="slide-up"
              data-sal-delay="1200"
