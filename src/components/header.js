@@ -6,6 +6,7 @@ import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
 import githubLogo from "../images/software-development-logos/png/010-github.png";
+import linkedinLogo from "../images/1384004-social-media/png/010-linkedin.png";
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -43,6 +44,9 @@ const Header = ({ siteTitle }) => (
           </NavItem>
           <NavItem as="li" className="navLogos">
               <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
+          </NavItem>
+          <NavItem as="li" className="navLogos">
+              <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank"><img src={linkedinLogo} alt="html5Logo" /></a>
           </NavItem>
         </Nav>
       </NavbarCollapse>
