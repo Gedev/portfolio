@@ -5,6 +5,8 @@ import { Nav, Navbar, NavbarBrand, NavItem } from 'react-bootstrap'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
+import githubLogo from "../images/software-development-logos/png/010-github.png";
+
 const Header = ({ siteTitle }) => (
   <header>
     <Navbar>
@@ -38,6 +40,9 @@ const Header = ({ siteTitle }) => (
             <Link to="/#contact" className="nav-link" activeClassName="active">
               Contact me
             </Link>
+          </NavItem>
+          <NavItem as="li" className="navLogos">
+              <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
           </NavItem>
         </Nav>
       </NavbarCollapse>
