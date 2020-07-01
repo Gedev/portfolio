@@ -29,6 +29,8 @@ const Profile = () => (
         <div>
           <h2>Profile</h2>
           <h3>EXPERIENCE</h3>
+          <Row>
+          <Col>
             <Card>
               <Card.Header>
                 <h5>
@@ -41,7 +43,7 @@ const Profile = () => (
                   Création des plateformes web pour le site HommeDeMetier sous la méthode Agile/SCRUM.
                 <hr />
 
-                <Row>
+
                   <Col>
                     <Card.Title>Technologies I used :</Card.Title>
                     <Card.Text>
@@ -163,9 +165,17 @@ const Profile = () => (
                       </p>
                     </Card.Text>
                   </Col>
-                </Row>
+
               </Card.Body>
+
             </Card>
+          </Col>
+            <Col>
+              <h4>Education</h4>
+              <h4>Languages</h4>
+            </Col>
+          </Row>
+
           <Card>
               <Card.Header>
                 <h5>Game Development - Technobel</h5>
