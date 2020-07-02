@@ -4,7 +4,7 @@ html {
 }
 
 #navbarResponsive {
-    display: flex !important;
+    display: flex;
     justify-content: center;
     position: fixed;
     z-index: 1;
@@ -139,10 +139,18 @@ section #footer {
     transform: scale(1.2);
 }
 
-.navLogos img {
-    display: flex;
-    align-items: center;
-    width: 20px;
+#navLogos img {
+    width: 25px;
+    filter: opacity(50%);
+}
+
+#navLogos img:hover {
+    filter: opacity(100%);
+}
+
+#navLogos {
     float: right !important;
+    margin-left: auto;
+    margin-right:0 !important;
     right: 0;
 }

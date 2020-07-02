@@ -42,13 +42,16 @@ const Header = ({ siteTitle }) => (
               Contact me
             </Link>
           </NavItem>
-          <NavItem as="li" className="navLogos">
-              <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
-          </NavItem>
-          <NavItem as="li" className="navLogos">
-              <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank"><img src={linkedinLogo} alt="html5Logo" /></a>
-          </NavItem>
         </Nav>
+
+        <Nav as="ul" id="navLogos">
+          <p >
+            <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
+
+            <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank"><img src={linkedinLogo} alt="linkedinLogo" /></a>
+          </p>
+        </Nav>
+
       </NavbarCollapse>
     </Navbar>
   </header>
