@@ -171,7 +171,6 @@ const Profile = () => (
                                         </p>
                                     </Card.Text>
                                 </Col>
-
                             </Card.Body>
 
                         </Card>
