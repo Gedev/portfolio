@@ -27,7 +27,6 @@ const Profile = () => (
     <section className="blockB" id="profile">
         <Container>
             <div>
-                <h2>Profile</h2>
                 <Row>
                 <Col>
                     <h3>EXPERIENCE</h3>

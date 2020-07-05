@@ -7,7 +7,7 @@ import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
 import githubLogo from "../images/software-development-logos/png/010-github.png";
 import linkedinLogo from "../images/1384004-social-media/png/010-linkedin.png";
-import twitterLogo from "../images/1384004-social-media/png/002-twitter.png";
+import twitterLogo from "../images/1384004-social-media/png/013-twitter.png";
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
           </NavItem>
           <NavItem as="li">
             <Link to="/#profile" className="nav-link" activeClassName="active">
-            Profile
+            About me
             </Link>
           </NavItem>
           <NavItem as="li">
