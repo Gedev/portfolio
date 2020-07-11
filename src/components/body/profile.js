@@ -14,6 +14,7 @@ import rematchLogo from "../../images/software-development-logos/png/035-rematch
 import reduxLogo from "../../images/software-development-logos/png/036-redux.svg";
 import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
+import bitbucketLogo from "../../images/software-development-logos/png/038-bitbucket.png";
 
 function renderTooltip(props) {
     return (
@@ -120,7 +121,14 @@ const Profile = () => (
                                                 >
                                                     <img src={gitLogo} alt="gitLogo"/>
                                                 </OverlayTrigger>
-                                                Bitbucket
+                                                <OverlayTrigger
+                                                    placement="top"
+                                                    delay={{show: 0, hide: 0}}
+                                                    overlay={renderTooltip("Bitbucket")}
+                                                >
+                                                    <img src={bitbucketLogo} alt="bitbucketLogo"/>
+                                                </OverlayTrigger>
+
                                                 Clubhouse
                                                 Slack
                                             </p>
