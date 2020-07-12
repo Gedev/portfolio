@@ -79,21 +79,21 @@ const Skills = () => (
             <span>Git</span>
             <div className="skills-progress-bar" data-sal='slide-up'
                  data-sal-easing='ease'
-                 data-sal-delay='600'
+                 data-sal-delay='100'
                  data-sal-duration='2000'>
               <div className="skills skills-color git">70%</div>
             </div>
             <span>Docker</span>
             <div className="skills-progress-bar" data-sal='slide-up'
                  data-sal-easing='ease'
-                 data-sal-delay='700'
+                 data-sal-delay='200'
                  data-sal-duration='2000'>
               <div className="skills skills-color docker">40%</div>
             </div>
             <span>Agile method</span>
             <div className="skills-progress-bar" data-sal='slide-up'
                  data-sal-easing='ease'
-                 data-sal-delay='800'
+                 data-sal-delay='300'
                  data-sal-duration='2000'>
               <div className="skills skills-color docker">40%</div>
             </div>
