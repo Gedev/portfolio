@@ -95,6 +95,46 @@ const Profile = () => (
                                             </OverlayTrigger>
                                         </p>
 
+                                      <hr />
+                                      <Col>
+                                        <Card.Title>Frameworks :</Card.Title>
+                                        <Card.Text>
+                                          <p className="logos">
+                                            <OverlayTrigger
+                                              placement="top"
+                                              delay={{show: 0, hide: 0}}
+                                              overlay={renderTooltip("React")}
+                                            >
+                                              <img src={reactLogo} alt="reactLogo"/>
+                                            </OverlayTrigger>
+
+                                            <OverlayTrigger
+                                              placement="top"
+                                              delay={{show: 0, hide: 0}}
+                                              overlay={renderTooltip("Symfony")}
+                                            >
+                                              <img src={symfonyLogo} alt="symfonyLogo"/>
+                                            </OverlayTrigger>
+
+                                            <OverlayTrigger
+                                              placement="top"
+                                              delay={{show: 0, hide: 0}}
+                                              overlay={renderTooltip("Rematch")}
+                                            >
+                                              <img src={rematchLogo} alt="rematchLogo"/>
+                                            </OverlayTrigger>
+
+                                            <OverlayTrigger
+                                              placement="top"
+                                              delay={{show: 0, hide: 0}}
+                                              overlay={renderTooltip("Redux")}
+                                            >
+                                              <img src={reduxLogo} alt="reduxLogo"/>
+                                            </OverlayTrigger>
+                                          </p>
+                                        </Card.Text>
+                                      </Col>
+
                                         <hr/>
                                         <p>
                                             <Card.Title>Tools :</Card.Title>
@@ -138,44 +178,6 @@ const Profile = () => (
                                         <Card.Title>Project management methodology :</Card.Title>
                                         Agile/SCRUM,
                                         Peercoding
-                                    </Card.Text>
-                                </Col>
-                                <Col>
-                                    <Card.Title>Frameworks :</Card.Title>
-                                    <Card.Text>
-                                        <p className="logos">
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("React")}
-                                            >
-                                                <img src={reactLogo} alt="reactLogo"/>
-                                            </OverlayTrigger>
-
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("Symfony")}
-                                            >
-                                                <img src={symfonyLogo} alt="symfonyLogo"/>
-                                            </OverlayTrigger>
-
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("Rematch")}
-                                            >
-                                                <img src={rematchLogo} alt="rematchLogo"/>
-                                            </OverlayTrigger>
-
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("Redux")}
-                                            >
-                                                <img src={reduxLogo} alt="reduxLogo"/>
-                                            </OverlayTrigger>
-                                        </p>
                                     </Card.Text>
                                 </Col>
                             </Card.Body>

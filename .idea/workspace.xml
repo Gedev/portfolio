@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
