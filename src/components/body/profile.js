@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
+import {Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 
 // Logos
 import html5Logo from "../../images/software-development-logos/png/030-html-5.png";

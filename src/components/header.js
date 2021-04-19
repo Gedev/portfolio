@@ -49,8 +49,8 @@ const Header = ({ siteTitle }) => (
           <p >
             <a href="https://gedev346235801.wordpress.com">My blog</a>
             <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
-            <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank"><img src={linkedinLogo} alt="linkedinLogo" /></a>
-            <a href="https://twitter.com/Gedev5" target="_blank"><img src={twitterLogo} alt="twitterLogo" /></a>
+            <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="linkedinLogo" /></a>
+            <a href="https://twitter.com/Gedev5" target="_blank" rel="noopener noreferrer"><img src={twitterLogo} alt="twitterLogo" /></a>
           </p>
         </Nav>
 

@@ -5,7 +5,7 @@ import Skills from "../components/body/skills"
 import Profile from "../components/body/profile"
 import Contact from "../components/body/contact"
 import Presentation from "../components/body/presentation";
-import Footer from "../components/footer";
+
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/styles.css";
