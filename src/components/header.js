@@ -43,6 +43,11 @@ const Header = ({ siteTitle }) => (
               Contact me
             </Link>
           </NavItem>
+          <NavItem as="li">
+            <Link to="/page-2" className="nav-link" activeClassName="active">
+              My Lab [WIP]
+            </Link>
+          </NavItem>
         </Nav>
 
         <Nav as="ul" id="navLogos">

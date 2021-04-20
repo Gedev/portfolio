@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <workItem from="1595780110008" duration="1356000" />
       <workItem from="1599859947207" duration="1821000" />
       <workItem from="1612452198017" duration="579000" />
-      <workItem from="1618848107267" duration="1439000" />
+      <workItem from="1618848107267" duration="8111000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -150,73 +149,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
     <option name="LAST_COMMIT_MESSAGE" value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="538" y="139" key="#JavaScript" timestamp="1589724696415">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="538" y="139" key="#JavaScript/0.0.1600.860@0.0.1600.860" timestamp="1589724696415" />
-    <state x="505" y="11" width="964" height="1012" key="CommitChangelistDialog2" timestamp="1589874414565">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="505" y="11" width="964" height="1012" key="CommitChangelistDialog2/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874414565" />
-    <state x="211" y="83" width="1536" height="860" key="DiffContextDialog" timestamp="1592946929149">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="180" y="99" width="1280" height="692" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1591548459425" />
-    <state x="211" y="83" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592946929149" />
-    <state x="573" y="179" key="FileChooserDialogImpl" timestamp="1593532213870">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="573" y="179" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593532213870" />
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874705955" />
-    <state width="1865" height="257" key="GridCell.Tab.0.bottom" timestamp="1592430721335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
-    <state width="1865" height="257" key="GridCell.Tab.0.center" timestamp="1592430721335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
-    <state width="1865" height="257" key="GridCell.Tab.0.left" timestamp="1592430721335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
-    <state width="1865" height="257" key="GridCell.Tab.0.right" timestamp="1592430721335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592430721335" />
-    <state x="484" y="20" key="SettingsEditor" timestamp="1592764744754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="484" y="20" key="SettingsEditor/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1592764744754" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1589874423094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1589874423093" />
-    <state x="609" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590341327095">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="609" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1590341327095" />
-    <state x="507" y="29" width="585" height="801" key="find.popup" timestamp="1589730334572">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="507" y="29" width="585" height="801" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1589730334572" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1590343598161">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590343598161" />
-    <state x="556" y="218" width="840" height="820" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1920.1040@0.0.1920.1040" timestamp="1590088638122" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/body/presentation.js</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
