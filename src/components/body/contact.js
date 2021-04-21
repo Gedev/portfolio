@@ -11,7 +11,6 @@ const Contact = () => (
              data-sal-easing="ease"
              data-sal-duration="1000">
         <FormGroup>
-
           <Row>
             <Col>
               <FormLabel>
@@ -60,8 +59,8 @@ const Contact = () => (
         <FormGroup>
           <FormLabel>
             Message
-            <Form.Control as="textarea" name="message" rows="5" placeholder="Your message" />
           </FormLabel>
+          <Form.Control as="textarea" name="message" rows={6} placeholder="Your message" />
         </FormGroup>
         </div>
         <Button variant="primary" type="submit">

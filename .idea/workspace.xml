@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/microscope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/stock_exchange.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/lab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/lab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,7 @@
       <workItem from="1599859947207" duration="1821000" />
       <workItem from="1612452198017" duration="579000" />
       <workItem from="1618848107267" duration="8302000" />
-      <workItem from="1619040265046" duration="1868000" />
+      <workItem from="1619040265046" duration="6181000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
