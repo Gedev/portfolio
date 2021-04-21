@@ -8,6 +8,7 @@ import "../components/styles.css";
 
 import preview_dark_n_light from "../images/preview_dark_n_light.png";
 import javaLogo from "../images/software-development-logos/png/003-java.png";
+import stockExchange from "../images/stock_exchange.jpg";
 
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
@@ -25,12 +26,11 @@ const SecondPage = () => (
 
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src={javaLogo} alt="Logo Java" />
+            <Card.Img variant="top" src={stockExchange} alt="stock exchange image" />
             <Card.Body>
-              <Card.Title>Project</Card.Title>
+              <Card.Title>Trading helper</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                A very light programm to help to calculate the purchase yield after buying a stock.
               </Card.Text>
             </Card.Body>
             <Card.Footer>

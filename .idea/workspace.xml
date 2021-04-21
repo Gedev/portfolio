@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/microscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/stock_exchange.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-2.js" afterDir="false" />
@@ -62,10 +64,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="E:\Users\Gedev\AppData\Local\Jetbrains\apps\WebStorm\ch-0\211.6693.108\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="C:\wamp64\www\portfolio\src\components" />
     </key>
   </component>
@@ -119,7 +123,8 @@
       <workItem from="1595780110008" duration="1356000" />
       <workItem from="1599859947207" duration="1821000" />
       <workItem from="1612452198017" duration="579000" />
-      <workItem from="1618848107267" duration="8111000" />
+      <workItem from="1618848107267" duration="8302000" />
+      <workItem from="1619040265046" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>

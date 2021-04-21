@@ -5,6 +5,8 @@ import { Nav, Navbar, NavbarBrand, NavItem } from 'react-bootstrap'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
+import labIcon from "../images/microscope.png";
+
 import githubLogo from "../images/software-development-logos/png/010-github.png";
 import linkedinLogo from "../images/1384004-social-media/png/010-linkedin.png";
 import twitterLogo from "../images/1384004-social-media/png/013-twitter.png";
