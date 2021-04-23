@@ -54,7 +54,6 @@ const SecondPage = () => (
                 <Card.Title>Project</Card.Title>
                 <Card.Text>
                   This card has supporting text below as a natural lead-in to additional
-
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
