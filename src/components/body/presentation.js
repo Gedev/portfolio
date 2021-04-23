@@ -9,8 +9,8 @@ const Presentation = () => (
           data-sal-easing="ease"
           data-sal-duration="1000">
         <h1>Hi there,</h1>
-        <p>I am Gerald Devreux, junior web developer soon in a Java intensive training.</p>
-        <p>I am actually searching for an opportunity in web development, as a fullstack/back-end developer in Belgium or Luxembourg !</p>
+        <p>I am Gerald Devreux, junior developer soon in a intensive java training.</p>
+        <p>I am actually searching for an opportunity as a fullstack/back-end developer in Belgium or Luxembourg !</p>
         <p>Don't hesitate to <a href="#contact" variant="dark">contact me !</a></p>
     </div>
     </Container>
