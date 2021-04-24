@@ -20,25 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
-      <change afterPath="$PROJECT_DIR$/src/images/laravel-brands.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/software-development-logos/png/039-laravel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/side-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/side-projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/001-facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/002-twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/003-whatsapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/004-groupme.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/005-kik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/006-skype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/007-periscope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/008-youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/009-itunes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/011-instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/012-messenger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/013-twitterr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/014-snapchat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/015-reddit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/1384004-social-media/png/016-tiktok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/lab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/lab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="D:\xampp\htdocs\portfolio\src\images\software-development-logos\png" />
+      <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="C:\wamp64\www\portfolio\src\components" />
     </key>
   </component>
@@ -140,7 +127,8 @@
       <workItem from="1612452198017" duration="579000" />
       <workItem from="1618848107267" duration="8302000" />
       <workItem from="1619040265046" duration="6795000" />
-      <workItem from="1619209862786" duration="8482000" />
+      <workItem from="1619209862786" duration="8876000" />
+      <workItem from="1619286085150" duration="3259000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>

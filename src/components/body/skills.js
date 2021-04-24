@@ -97,10 +97,30 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color docker">40%</div>
             </div>
-            <h4>
-              <p>Actually improving my skills in :</p>
-            </h4>
-            <p> Latest article I read : https://medium.com/better-programming/functional-programming-using-the-functor-type-class-in-typescript-beae60abe6af</p>
+            <h5>
+              Programming methodologies
+            </h5>
+            <span>TDD</span>
+            <div className="skills-progress-bar" data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='400'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color TDD">Learning</div>
+            </div>
+            <span>BDD</span>
+            <div className="skills-progress-bar" data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='500'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color BDD">Learning</div>
+            </div>
+            <span>DDD</span>
+            <div className="skills-progress-bar" data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='600'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color DDD">Learning</div>
+            </div>
 
           </Col>
         </Row>

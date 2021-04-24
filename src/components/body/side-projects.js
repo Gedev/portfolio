@@ -7,7 +7,7 @@ import announcements from "../../images/announcements.png";
 import classroomFinder_homepage from "../../images/classroomFinder_homepage.png";
 import classroomFinder_users from "../../images/classroomFinder_users.png";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
-import laravelLogo from "../../images/laravel-brands.svg";
+import laravelLogo from "../../images/software-development-logos/png/039-laravel.png";
 
 
 function renderTooltip(props) {

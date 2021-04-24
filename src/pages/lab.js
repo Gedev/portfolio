@@ -63,7 +63,7 @@ const SecondPage = () => (
           </div>
 
           <div data-sal="slide-up"
-               data-sal-delay="200"
+               data-sal-delay="400"
                data-sal-easing="ease"
                data-sal-duration="1000">
             <Card>
