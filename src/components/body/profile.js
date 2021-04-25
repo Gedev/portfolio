@@ -15,6 +15,7 @@ import reduxLogo from "../../images/software-development-logos/png/036-redux.svg
 import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
 import bitbucketLogo from "../../images/software-development-logos/png/038-bitbucket.png";
+// import frenchLogo from "../../images/francais.png";
 
 function renderTooltip(props) {
     return (

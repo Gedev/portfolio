@@ -8,6 +8,10 @@ import classroomFinder_homepage from "../../images/classroomFinder_homepage.png"
 import classroomFinder_users from "../../images/classroomFinder_users.png";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
 import laravelLogo from "../../images/software-development-logos/png/039-laravel.png";
+import javascriptLogo from "../../images/software-development-logos/png/029-javascript.png";
+import photoshopLogo from "../../images/photoshop.png";
+import illustratorLogo from "../../images/illustrator.png";
+import phaserLogo from "../../images/phaser.png";
 
 
 function renderTooltip(props) {
@@ -75,6 +79,23 @@ const SideProjects = () => (
         <Card.Text>
           <img src={preview_dark_n_light} alt="darknlightpreview" />
           <p>Dark'n Light, my personal game using the framework Phaser.</p>
+          <Card.Title>Tech :</Card.Title>
+          <p className="logos">
+            <OverlayTrigger
+                placement="top"
+                delay={{show: 0, hide: 0}}
+                overlay={renderTooltip("Javascript")}
+            >
+              <img src={javascriptLogo} alt="javascriptLogo"/>
+            </OverlayTrigger>
+            <OverlayTrigger
+                placement="top"
+                delay={{show: 0, hide: 0}}
+                overlay={renderTooltip("Phaser")}
+            >
+              <img src={phaserLogo} alt="phaserLogo"/>
+            </OverlayTrigger>
+          </p>
         </Card.Text>
       </Card.Body>
     </Card>
@@ -91,6 +112,23 @@ const SideProjects = () => (
               <Card.Text>
                 <img src={poulpatose} alt="poulpatosePreview" />
                 <p>A funny Card game I created and printed.</p>
+                <p className="logos">
+                  <Card.Title>Tech :</Card.Title>
+                  <OverlayTrigger
+                      placement="top"
+                      delay={{show: 0, hide: 0}}
+                      overlay={renderTooltip("Photoshop")}
+                  >
+                    <img src={photoshopLogo} alt="photoshopLogo"/>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                      placement="top"
+                      delay={{show: 0, hide: 0}}
+                      overlay={renderTooltip("Illustrator")}
+                  >
+                    <img src={illustratorLogo} alt="illustratorLogo"/>
+                  </OverlayTrigger>
+                </p>
               </Card.Text>
             </Card.Body>
           </Card>
