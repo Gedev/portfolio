@@ -227,7 +227,7 @@ const Profile = () => (
                                 </p>
                             </Card.Body>
                         </Card>
-                        <Card id=languages>
+                        <Card>
                             <Card.Header>
                                 <h4>Languages</h4>
                             </Card.Header>
