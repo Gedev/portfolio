@@ -98,7 +98,7 @@ const Skills = () => (
               <div className="skills skills-color docker">40%</div>
             </div>
             <h5>
-              Programming methodologies
+              Programming practices
             </h5>
             <span>TDD</span>
             <div className="skills-progress-bar" data-sal='slide-up'

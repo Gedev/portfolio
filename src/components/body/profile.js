@@ -15,7 +15,8 @@ import reduxLogo from "../../images/software-development-logos/png/036-redux.svg
 import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
 import bitbucketLogo from "../../images/software-development-logos/png/038-bitbucket.png";
-// import frenchLogo from "../../images/francais.png";
+import frenchLogo from "../../images/francais.png";
+import englishLogo from "../../images/anglais.png";
 
 function renderTooltip(props) {
     return (
@@ -226,14 +227,36 @@ const Profile = () => (
                                 </p>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card id=languages>
                             <Card.Header>
                                 <h4>Languages</h4>
                             </Card.Header>
                             <Card.Body>
                                 <ListGroup variant="flush">
-                                    <ListGroup.Item>French : native</ListGroup.Item>
-                                    <ListGroup.Item>English : intermediate (B2)</ListGroup.Item>
+                                    <p className="logos">
+                                        <ListGroup.Item>
+                                            <OverlayTrigger
+                                                placement="top"
+                                                delay={{show: 0, hide: 0}}
+                                                overlay={renderTooltip("French")}
+                                            >
+                                                <img src={frenchLogo} alt="frenchLogo"/>
+                                            </OverlayTrigger>
+                                        : native
+                                        </ListGroup.Item>
+                                    </p>
+                                    <p className="logos">
+                                        <ListGroup.Item>
+                                            <OverlayTrigger
+                                                placement="top"
+                                                delay={{show: 0, hide: 0}}
+                                                overlay={renderTooltip("English")}
+                                            >
+                                                <img src={englishLogo} alt="englishLogo"/>
+                                            </OverlayTrigger>
+                                            : intermediate (B2)
+                                        </ListGroup.Item>
+                                    </p>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
