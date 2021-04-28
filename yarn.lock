@@ -8953,6 +8953,11 @@ mdast-util-to-hast@9.1.0:
     unist-util-position "^3.0.0"
     unist-util-visit "^2.0.0"
 
+mdbootstrap@^4.19.2:
+  version "4.19.2"
+  resolved "https://registry.yarnpkg.com/mdbootstrap/-/mdbootstrap-4.19.2.tgz#21007a6b7d89cf5420d803a27db344edfa00be31"
+  integrity sha512-a+LwPflYRYwlmYKTvftW0X7SfOMrRZ02qZjrssNko1lPU/HR5JRFc1uwa3Dmmw+6TwsYH760waqdghBFrucpOw==
+
 mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"

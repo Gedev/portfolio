@@ -8,6 +8,8 @@ import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 import githubLogo from "../images/software-development-logos/png/010-github.png";
 import linkedinLogo from "../images/1384004-social-media/png/010-linkedin.png";
 import twitterLogo from "../images/1384004-social-media/png/013-twitter.png";
+import wordpressLogo from "../images/1384004-social-media/png/wordpress.png";
+
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -43,14 +45,19 @@ const Header = ({ siteTitle }) => (
               Contact me
             </Link>
           </NavItem>
+          <NavItem as="li">
+            <Link to="/lab" className="nav-link" activeClassName="active">
+              My Lab [WIP]
+            </Link>
+          </NavItem>
         </Nav>
 
         <Nav as="ul" id="navLogos">
           <p >
-            <a href="https://gedev346235801.wordpress.com">My blog</a>
+            <a href="https://gedev346235801.wordpress.com"><img src={wordpressLogo} alt="wordpressLogo" /></a>
             <a href="https://github.com/Gedev"><img src={githubLogo} alt="html5Logo" /></a>
-            <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank"><img src={linkedinLogo} alt="linkedinLogo" /></a>
-            <a href="https://twitter.com/Gedev5" target="_blank"><img src={twitterLogo} alt="twitterLogo" /></a>
+            <a href="https://www.linkedin.com/in/gerald-devreux-57940413b" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="linkedinLogo" /></a>
+            <a href="https://twitter.com/Gedev5" target="_blank" rel="noopener noreferrer"><img src={twitterLogo} alt="twitterLogo" /></a>
           </p>
         </Nav>
 

@@ -40,6 +40,12 @@ img {
     width: 300px;
 }
 
+#side-projects img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow:  5px 5px 8px rgba(12, 12, 12, 0.2);
+}
+
 section h5 {
     padding-top: 20px;
 }
@@ -130,10 +136,27 @@ section #footer {
     background-color: #0077c6;
 }
 
+.TDD {
+    width: 0%;
+    background-color: #0077c6;
+}
+
+.BDD {
+    width: 0%;
+    background-color: #0077c6;
+}
+
+.DDD {
+    width: 0%;
+    background-color: #0077c6;
+}
+
 .logos img {
     width: 50px;
-    margin-right: 10px;
+    margin-right: 5px;
     transition: all .1s ease-in-out;
+    margin-bottom: 0;
+    box-shadow:  0 0 0 white !important;
 }
 
 .logos img:hover {
@@ -147,6 +170,10 @@ section #footer {
     margin-top: 10px;
 }
 
+.laravel_icon {
+    fill: red;
+}
+
 #navLogos img:hover {
     filter: opacity(100%);
 }
@@ -156,4 +183,12 @@ section #footer {
     margin-left: auto;
     margin-right:0 !important;
     right: 0;
+}
+
+#languages {
+
+}
+
+.list-group-item {
+    padding: 0 !important;
 }

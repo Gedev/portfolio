@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
+import {Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 
 // Logos
 import html5Logo from "../../images/software-development-logos/png/030-html-5.png";
@@ -15,6 +15,8 @@ import reduxLogo from "../../images/software-development-logos/png/036-redux.svg
 import hubspotLogo from "../../images/software-development-logos/png/037-hubspot.svg";
 import phpLogo from "../../images/software-development-logos/png/027-php.png";
 import bitbucketLogo from "../../images/software-development-logos/png/038-bitbucket.png";
+import frenchLogo from "../../images/francais.png";
+import englishLogo from "../../images/anglais.png";
 
 function renderTooltip(props) {
     return (
@@ -38,6 +40,10 @@ const Profile = () => (
                 </Row>
                 <Row>
                     <Col>
+                        <div  data-sal="slide-right"
+                              data-sal-delay="200"
+                              data-sal-easing="ease"
+                              data-sal-duration="1000">
                         <Card>
                             <Card.Header>
                                 <h5>
@@ -181,38 +187,51 @@ const Profile = () => (
                                     </Card.Text>
                                 </Col>
                             </Card.Body>
-
                         </Card>
-                        <Card>
-                            <Card.Header>
-                                <h5>Game Development - Technobel</h5>
-                                2016 - 3 months
-                            </Card.Header>
-                            <Card.Body>
-                                <Card.Title>Technologies I used :</Card.Title>
-                                <p className="logos">
-                                    <OverlayTrigger
-                                        placement="top"
-                                        delay={{show: 0, hide: 0}}
-                                        overlay={renderTooltip("Javascript")}
-                                    >
-                                        <img src={javascriptLogo} alt="javascriptLogo"/>
-                                    </OverlayTrigger>
+                        </div>
 
-                                </p>
-                                <Card.Title>Description</Card.Title>
-                                <Card.Text>
-                                    Développement de jeu sur navigateur en JS. Algorithmique, game engine, POO.
-                                    Finalisation des compétences dans un jeu présenté devant le studio Fishing Cactus. <a
-                                    href="#side-projects">See what I did</a>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div  data-sal="slide-right"
+                              data-sal-delay="1400"
+                              data-sal-easing="ease"
+                              data-sal-duration="1000">
+                            <Card>
+                                <Card.Header>
+                                    <h5>Game Development - Technobel</h5>
+                                    2016 - 3 months
+                                </Card.Header>
+                                <Card.Body>
+                                    <Card.Title>Technologies I used :</Card.Title>
+                                    <p className="logos">
+                                        <OverlayTrigger
+                                            placement="top"
+                                            delay={{show: 0, hide: 0}}
+                                            overlay={renderTooltip("Javascript")}
+                                        >
+                                            <img src={javascriptLogo} alt="javascriptLogo"/>
+                                        </OverlayTrigger>
+
+                                    </p>
+                                    <Card.Title>Description</Card.Title>
+                                    <Card.Text>
+                                        Développement de jeu sur navigateur en JS. Algorithmique, game engine, POO.
+                                        Finalisation des compétences dans un jeu présenté devant le studio Fishing Cactus. <a
+                                        href="#side-projects">See what I did</a>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
                     </Col>
 
 
                     <Col>
+                        <div  data-sal="slide-down"
+                              data-sal-delay="800"
+                              data-sal-easing="ease"
+                              data-sal-duration="1000">
                         <Card>
+                            <Card.Header>
+                                <h4>Diplomas</h4>
+                            </Card.Header>
                             <Card.Body>
                                 <h5>BES - Webdeveloper</h5>
                                 2020 -
@@ -225,17 +244,45 @@ const Profile = () => (
                                 </p>
                             </Card.Body>
                         </Card>
+                        </div>
+                        <div  data-sal="slide-left"
+                              data-sal-delay="400"
+                              data-sal-easing="ease"
+                              data-sal-duration="1000">
                         <Card>
                             <Card.Header>
                                 <h4>Languages</h4>
                             </Card.Header>
                             <Card.Body>
                                 <ListGroup variant="flush">
-                                    <ListGroup.Item>French : native</ListGroup.Item>
-                                    <ListGroup.Item>English : intermediate (B2)</ListGroup.Item>
+                                    <p className="logos">
+                                        <ListGroup.Item>
+                                            <OverlayTrigger
+                                                placement="top"
+                                                delay={{show: 0, hide: 0}}
+                                                overlay={renderTooltip("French")}
+                                            >
+                                                <img src={frenchLogo} alt="frenchLogo"/>
+                                            </OverlayTrigger>
+                                        : native
+                                        </ListGroup.Item>
+                                    </p>
+                                    <p className="logos">
+                                        <ListGroup.Item>
+                                            <OverlayTrigger
+                                                placement="top"
+                                                delay={{show: 0, hide: 0}}
+                                                overlay={renderTooltip("English")}
+                                            >
+                                                <img src={englishLogo} alt="englishLogo"/>
+                                            </OverlayTrigger>
+                                            : intermediate (B2)
+                                        </ListGroup.Item>
+                                    </p>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
+                        </div>
                     </Col>
                 </Row>
             </div>
