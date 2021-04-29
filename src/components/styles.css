@@ -152,7 +152,7 @@ section #footer {
 }
 
 .logos img {
-    width: 50px;
+    width: 50px !important;
     margin-right: 5px;
     transition: all .1s ease-in-out;
     margin-bottom: 0;
