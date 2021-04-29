@@ -269,13 +269,7 @@ const Profile = () => (
                                     </p>
                                     <p className="logos">
                                         <ListGroup.Item>
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("English")}
-                                            >
                                                 <img src={englishLogo} alt="englishLogo"/>
-                                            </OverlayTrigger>
                                             : intermediate (B2)
                                         </ListGroup.Item>
                                     </p>
