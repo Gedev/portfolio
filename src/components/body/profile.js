@@ -260,8 +260,6 @@ const Profile = () => (
                                             <img src={frenchLogo} alt="frenchLogo"/>
                                         : native
                                         </ListGroup.Item>
-                                    </p>
-                                    <p className="logos">
                                         <ListGroup.Item>
                                                 <img src={englishLogo} alt="englishLogo"/>
                                             : intermediate (B2)
