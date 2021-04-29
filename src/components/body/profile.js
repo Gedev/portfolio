@@ -257,13 +257,7 @@ const Profile = () => (
                                 <ListGroup variant="flush">
                                     <p className="logos">
                                         <ListGroup.Item>
-                                            <OverlayTrigger
-                                                placement="top"
-                                                delay={{show: 0, hide: 0}}
-                                                overlay={renderTooltip("French")}
-                                            >
-                                                <img src={frenchLogo} alt="frenchLogo"/>
-                                            </OverlayTrigger>
+                                            <img src={frenchLogo} alt="frenchLogo"/>
                                         : native
                                         </ListGroup.Item>
                                     </p>
