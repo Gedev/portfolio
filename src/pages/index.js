@@ -5,12 +5,10 @@ import Skills from "../components/body/skills"
 import Profile from "../components/body/profile"
 import Contact from "../components/body/contact"
 import Presentation from "../components/body/presentation";
-
+import SideProjects from "../components/body/side-projects";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/styles.css";
-import SideProjects from "../components/body/side-projects";
-
 
 
 const IndexPage = () => (

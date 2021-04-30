@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
+      <change afterPath="$PROJECT_DIR$/src/images/award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/graduated.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\portfolio\src\images" />
       <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="D:\xampp\htdocs\portfolio\src\images\software-development-logos\png" />
       <recent name="C:\wamp64\www\portfolio\src\components" />
@@ -126,7 +130,8 @@
       <workItem from="1619209862786" duration="8876000" />
       <workItem from="1619286085150" duration="4551000" />
       <workItem from="1619384807136" duration="6063000" />
-      <workItem from="1619687901297" duration="3383000" />
+      <workItem from="1619687901297" duration="4648000" />
+      <workItem from="1619791779058" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>

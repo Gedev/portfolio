@@ -17,6 +17,8 @@ import phpLogo from "../../images/software-development-logos/png/027-php.png";
 import bitbucketLogo from "../../images/software-development-logos/png/038-bitbucket.png";
 import frenchLogo from "../../images/francais.png";
 import englishLogo from "../../images/anglais.png";
+import graduatedLogo from "../../images/graduated.png";
+import awardLogo from "../../images/award.png";
 
 function renderTooltip(props) {
     return (
@@ -233,12 +235,20 @@ const Profile = () => (
                                 <h4>Diplomas</h4>
                             </Card.Header>
                             <Card.Body>
-                                <h5>BES - Webdeveloper</h5>
-                                2020 -
-                                Namur
-                                <h5>CESS</h5>
-                                2011 - 
-                                Athénée Royale de la Roche-en-Ardenne
+                                <p className="logos">
+                                    <h5>
+                                    <img src={graduatedLogo} alt="graduatedLogo"/>
+                                    BES - Webdeveloper</h5>
+                                </p>
+                                2020 - Namur
+                                <hr />
+                                <p className="logos">
+                                    <h5>
+                                        <img src={awardLogo} alt="awardLogo"/>
+                                        CESS
+                                    </h5>
+                                </p>
+                                2011 - Athénée Royale de la Roche-en-Ardenne
                                 <p className="logos">
                                     Option Computer Science
                                 </p>
