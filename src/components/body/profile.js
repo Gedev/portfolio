@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
+import { Button, Card, Col, Container, ListGroup, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
 
 // Logos
 import html5Logo from "../../images/software-development-logos/png/030-html-5.png";
@@ -20,6 +20,7 @@ import englishLogo from "../../images/anglais.png";
 import graduatedLogo from "../../images/graduated.png";
 import awardLogo from "../../images/award.png";
 import slackLogo from "../../images/slack.png";
+import cv from "../../files/Gerald_Devreux_Webdev_CV_04_2021.pdf";
 
 function renderTooltip(props) {
     return (
@@ -35,10 +36,10 @@ const Profile = () => (
             <div>
                 <Row>
                 <Col>
-                    <h3>EXPERIENCE</h3>
+                    <h2>EXPERIENCE</h2>
                 </Col>
                 <Col>
-                    <h3>EDUCATION</h3>
+                    <h2>EDUCATION</h2>
                 </Col>
                 </Row>
                 <Row>
@@ -236,28 +237,40 @@ const Profile = () => (
                               data-sal-delay="400"
                               data-sal-easing="ease"
                               data-sal-duration="1000">
-                        <Card>
-                            <Card.Header>
-                                <h4>Languages</h4>
-                            </Card.Header>
-                            <Card.Body>
-                                <ListGroup variant="flush">
-                                    <p className="logos">
-                                        <ListGroup.Item>
-                                            <img src={frenchLogo} alt="frenchLogo"/>
-                                        : native
-                                        </ListGroup.Item>
-                                        <ListGroup.Item>
-                                                <img src={englishLogo} alt="englishLogo"/>
-                                            : intermediate (B2)
-                                        </ListGroup.Item>
-                                    </p>
-                                </ListGroup>
-                            </Card.Body>
-                        </Card>
+                            <Card>
+                                <Card.Header>
+                                    <h4>Languages</h4>
+                                </Card.Header>
+                                <Card.Body>
+                                    <ListGroup variant="flush">
+                                        <p className="logos">
+                                            <ListGroup.Item>
+                                                <img src={frenchLogo} alt="frenchLogo"/>
+                                              native
+                                            </ListGroup.Item>
+                                            <ListGroup.Item>
+                                                    <img src={englishLogo} alt="englishLogo"/>
+                                              intermediate (B2)
+                                            </ListGroup.Item>
+                                        </p>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
                         </div>
                     </Col>
                 </Row>
+              <Col>
+                <Row>
+                  <Card id="cv">
+                    <Card.Body>
+                      <Card.Title></Card.Title>
+                      <Card.Text>
+                        Download my Curriculum Vitae <Button href={cv} download="Gerald_Devreux_CV_2021.pdf">Download</Button>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Row>
+              </Col>
             </div>
         </Container>
     </section>

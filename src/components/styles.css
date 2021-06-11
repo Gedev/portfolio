@@ -61,8 +61,16 @@ section h5 {
     padding-top: 20px;
 }
 
+section h2 {
+    padding-bottom: 20px;
+}
+
 section #footer {
     min-height: auto;
+}
+
+#cv {
+    width: 100%;
 }
 
 .go-up {
@@ -74,6 +82,8 @@ section #footer {
     width: 100%; /* Full width */
     background-color: #ddd; /* Grey background */
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+    border-radius: 8px;
 }
 
 .skills {
@@ -81,6 +91,7 @@ section #footer {
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
     color: white; /* White text color */
+    border-radius: 8px;
 }
 
 .skills-color {
@@ -183,7 +194,7 @@ section #footer {
 }
 
 #navLogos {
-    float: right !important;
+    float: right;
     margin-left: auto;
     margin-right:0 !important;
     right: 0;

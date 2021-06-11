@@ -22,7 +22,7 @@ const Contact = () => (
               <FormLabel>
                 Your name
               </FormLabel>
-              <Form.Control type="text" name="name" placeholder="Last name" />
+              <Form.Control type="text" name="name" placeholder="Last name" required/>
             </Col>
           </Row>
         </FormGroup>
@@ -36,7 +36,7 @@ const Contact = () => (
           <FormLabel>
             Email
           </FormLabel>
-          <Form.Control type="email" name="email" placeholder="name@example.com" required />
+          <Form.Control type="email" name="email" placeholder="mail@example.com" required />
         </FormGroup>
         </div>
 
@@ -67,7 +67,6 @@ const Contact = () => (
           Submit
         </Button>
       </Form>
-        <Button href="#home" variant="dark">Go Up</Button>
       </Container>
     </section>
 )
