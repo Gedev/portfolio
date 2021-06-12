@@ -73,6 +73,11 @@ section #footer {
     width: 100%;
 }
 
+#cv img {
+    height: 32px;
+    width: 32px;
+}
+
 .go-up {
     position: absolute !important;
     text-align: right !important;

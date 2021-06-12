@@ -74,6 +74,8 @@ const Skills = () => (
               <div className="skills skills-color gatsby">30%</div>
             </div>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <h5>Tools</h5>
             <span>Git</span>
@@ -97,6 +99,8 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color docker">40%</div>
             </div>
+          </Col>
+          <Col>
             <h5>
               Programming practices
             </h5>
@@ -121,7 +125,6 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color DDD">Learning</div>
             </div>
-
           </Col>
         </Row>
       </Container>

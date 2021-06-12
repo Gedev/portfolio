@@ -21,6 +21,7 @@ import graduatedLogo from "../../images/graduated.png";
 import awardLogo from "../../images/award.png";
 import slackLogo from "../../images/slack.png";
 import cv from "../../files/Gerald_Devreux_Webdev_CV_04_2021.pdf";
+import arrowDownload from "../../images/downloadArrowWhite32.png";
 
 function renderTooltip(props) {
     return (
@@ -265,7 +266,10 @@ const Profile = () => (
                     <Card.Body>
                       <Card.Title></Card.Title>
                       <Card.Text>
-                        Download my Curriculum Vitae <Button href={cv} download="Gerald_Devreux_CV_2021.pdf">Download</Button>
+                         Download my Curriculum Vitae
+                        <Button href={cv} download="Gerald_Devreux_CV_2021.pdf">
+                          <img src={arrowDownload} alt="downloadArrow" /> Download
+                        </Button>
                       </Card.Text>
                     </Card.Body>
                   </Card>
