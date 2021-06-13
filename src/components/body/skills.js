@@ -97,7 +97,7 @@ const Skills = () => (
                  data-sal-easing='ease'
                  data-sal-delay='300'
                  data-sal-duration='2000'>
-              <div className="skills skills-color docker">40%</div>
+              <div className="skills skills-color agile">40%</div>
             </div>
           </Col>
           <Col>
