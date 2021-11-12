@@ -213,17 +213,18 @@ const Profile = () => (
                             <Card.Header>
                                 <h4>Diplomas</h4>
                             </Card.Header>
-                            <Card.Body>
+                            <Card.Body id="education">
                                 <p className="logos">
                                     <h5>
-                                    <img src={graduatedLogo} alt="graduatedLogo"/>
-                                    BES - Webdeveloper</h5>
+                                        <img src={graduatedLogo} alt="graduatedLogo"/>
+                                        BES - Webdeveloper
+                                    </h5>
                                 </p>
                                 2020 - Namur
                                 <hr />
                                 <p className="logos">
+                                    <img src={awardLogo} alt="awardLogo"/>
                                     <h5>
-                                        <img src={awardLogo} alt="awardLogo"/>
                                         CESS
                                     </h5>
                                 </p>

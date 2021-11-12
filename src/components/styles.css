@@ -201,12 +201,21 @@ section #footer {
 }
 
 
+
 .logos img {
     width: 50px !important;
     margin-right: 5px;
     transition: all .1s ease-in-out;
     margin-bottom: 0;
     box-shadow:  0 0 0 white !important;
+}
+
+#education .logos img {
+    float: left;
+}
+
+.logos h5 {
+    position: relative;
 }
 
 .logos img:hover {
