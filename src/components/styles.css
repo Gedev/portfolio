@@ -112,6 +112,17 @@ section #footer {
     background-color: #de4b25;
 }
 
+.java {
+    width: 75%;
+    background-color: #e6312c;
+}
+
+.angular {
+    width: 70%;
+    background-color: #bd002e;
+}
+
+
 .css {
     width: 70%;
     background-color: #2195f1;
@@ -230,4 +241,8 @@ section #footer {
     #navbarResponsive {
         padding-left: 0;
     }
+}
+
+.span_skillsbar img {
+    width: 24px;
 }

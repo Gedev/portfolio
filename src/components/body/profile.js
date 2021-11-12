@@ -20,7 +20,7 @@ import englishLogo from "../../images/anglais.png";
 import graduatedLogo from "../../images/graduated.png";
 import awardLogo from "../../images/award.png";
 import slackLogo from "../../images/slack.png";
-import cv from "../../files/Gerald_Devreux_Webdev_CV_04_2021.pdf";
+import cv from "../../files/Gerald_Devreux_CV_2021.pdf";
 import arrowDownload from "../../images/downloadArrowWhite32.png";
 
 function renderTooltip(props) {
@@ -62,7 +62,7 @@ const Profile = () => (
                                 <hr/>
 
                                 <Col>
-                                    <Card.Title>Technologies I used :</Card.Title>
+                                    <Card.Title>Technologies used :</Card.Title>
                                     <Card.Text>
                                         <p className="logos">
                                             <OverlayTrigger

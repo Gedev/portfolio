@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import java24 from "../../images/java24.png";
 
 const Skills = () => (
     <section id="skills" className="blockA">
@@ -8,7 +9,7 @@ const Skills = () => (
         <Row>
           <Col>
             <h5>Programming languages</h5>
-            <span>HTML 5</span>
+            <span className="span_skillsbar">HTML 5</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='100'
@@ -16,28 +17,45 @@ const Skills = () => (
               <div className="skills skills-color html5
                 ">90%</div>
             </div>
-            <span>CSS 3</span>
+            <span className="span_skillsbar">
+              <img src={java24} alt="java24" />
+              Java
+            </span>
+            <div className="skills-progress-bar"  data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='100'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color java">75%</div>
+            </div>
+            <span className="span_skillsbar">Angular</span>
+            <div className="skills-progress-bar"  data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='100'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color angular">70%</div>
+            </div>
+            <span className="span_skillsbar">CSS 3</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='200'
                  data-sal-duration='2000'>
               <div className="skills skills-color css">70%</div>
             </div>
-            <span>PhP</span>
+            <span className="span_skillsbar">PhP</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='300'
                  data-sal-duration='2000'>
               <div className="skills skills-color php">75%</div>
             </div>
-            <span>Javascript</span>
+            <span className="span_skillsbar">Javascript</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='300'
                  data-sal-duration='2000'>
               <div className="skills skills-color js">70%</div>
             </div>
-            <span>Typescript</span>
+            <span className="span_skillsbar">Typescript</span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='300'
@@ -45,7 +63,7 @@ const Skills = () => (
               <div className="skills skills-color ts">50%</div>
             </div>
             <h5>Frameworks</h5>
-            <span>Laravel</span>
+            <span className="span_skillsbar">Laravel</span>
             <div className="skills-progress-bar" data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='400'

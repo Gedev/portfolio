@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,10 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="">
+    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
+      <change afterPath="$PROJECT_DIR$/src/images/java24.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Gerald_Devreux_Webdev_CV_04_2021.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Gerald_Devreux_CV_2021.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1c214IijHJMi1OGbkWEOCq7rtaD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,8 +84,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="D:\xampp\htdocs\portfolio\src\files" />
+      <recent name="D:\xampp\htdocs\portfolio\src\images" />
       <recent name="C:\xampp\htdocs\portfolio\src\images" />
       <recent name="D:\xampp\htdocs\portfolio\src\images\software-development-logos\png" />
       <recent name="C:\wamp64\www\portfolio\src\components" />
@@ -142,6 +151,9 @@
       <workItem from="1623333405029" duration="2220000" />
       <workItem from="1623404724756" duration="5878000" />
       <workItem from="1623594153885" duration="3304000" />
+      <workItem from="1623617487697" duration="697000" />
+      <workItem from="1623849866026" duration="279000" />
+      <workItem from="1636721956034" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -166,7 +178,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
