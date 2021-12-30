@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
+    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="Updapte presentation text, rearrange skills bar by priority and add minor improvments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589874415195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updapte presentation text, rearrange skills bar by priority and add minor improvments">
+      <created>1640904889407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640904889407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)" />
+    <MESSAGE value="Updapte presentation text, rearrange skills bar by priority and add minor improvments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updapte presentation text, rearrange skills bar by priority and add minor improvments" />
   </component>
 </project>

@@ -22,6 +22,7 @@ import awardLogo from "../../images/award.png";
 import slackLogo from "../../images/slack.png";
 import cv from "../../files/Gerald_Devreux_CV_2021.pdf";
 import arrowDownload from "../../images/downloadArrowWhite32.png";
+import java24 from "../../images/java24.png";
 
 function renderTooltip(props) {
     return (
@@ -215,6 +216,17 @@ const Profile = () => (
                             </Card.Header>
                             <Card.Body id="education">
                                 <p className="logos">
+                                    <img src={awardLogo} alt="awardLogo"/>
+                                    <h5>
+                                        Java/ANGULAR - intensive training
+                                    </h5>
+                                </p>
+
+                                Technobel - 7 months
+                                <p>2021 - Arlon</p>
+                                <hr />
+
+                                <p className="logos">
                                     <h5>
                                         <img src={graduatedLogo} alt="graduatedLogo"/>
                                         BES - Webdeveloper
@@ -222,6 +234,7 @@ const Profile = () => (
                                 </p>
                                 2020 - Namur
                                 <hr />
+
                                 <p className="logos">
                                     <img src={awardLogo} alt="awardLogo"/>
                                     <h5>

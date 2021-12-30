@@ -258,6 +258,14 @@ section #footer {
     }
 }
 
+@media screen and (max-width: 550px)
+{
+    #navbarResponsive {
+        min-height: 150px;
+        color: yellow;
+    }
+}
+
 .span_skillsbar img {
     width: 24px;
 }
