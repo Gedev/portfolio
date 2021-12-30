@@ -93,13 +93,19 @@ section #footer {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     margin-bottom: 8px;
     border-radius: 8px;
+    transition-delay: 1s;
+}
+
+.skills-progress-bar:hover {
+    transition: all .2s ease-in-out;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 
 .skills {
     text-align: right;
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
     border-radius: 8px;
 }
 
@@ -192,7 +198,7 @@ section #footer {
     background-color: #0077c6;
 }
 
-.html5:hover, .css:hover, .php:hover, .js:hover, .ts:hover,
+.java:hover, .html5:hover, .css:hover, .php:hover, .js:hover, .ts:hover,
 .laravel:hover, .symfony:hover, .react:hover, .gatsby:hover,
 .git:hover, .docker:hover, .agile:hover, .TDD:hover, .BDD:hover, .DDD:hover{
     opacity: 0.8;
