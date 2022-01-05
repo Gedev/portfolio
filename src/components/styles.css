@@ -122,12 +122,19 @@ section #footer {
     width: 75%;
     background-color: #e6312c;
 }
+.spring {
+    width: 75%;
+    background-color: #1c7430;
+}
 
 .angular {
     width: 70%;
     background-color: #bd002e;
 }
 
+.skills-mini-logos {
+    margin-right: 5px;
+}
 
 .css {
     width: 70%;

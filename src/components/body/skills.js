@@ -1,6 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import java24 from "../../images/java24.png";
+import spring from "../../images/software-development-logos/png/040-spring-logo_50px.png";
+import javascript from "../../images/software-development-logos/png/041-javascript-24px.png";
+import angular from "../../images/software-development-logos/png/042-angular.png";
 
 const Skills = () => (
     <section id="skills" className="blockA">
@@ -10,7 +13,7 @@ const Skills = () => (
           <Col>
             <h5>Programming languages</h5>
             <span className="span_skillsbar">
-              <img src={java24} alt="java24" />
+              <img src={java24} className="skills-mini-logos" alt="java24" />
               Java
             </span>
             <div className="skills-progress-bar"  data-sal='slide-up'
@@ -19,7 +22,10 @@ const Skills = () => (
                  data-sal-duration='2000'>
               <div className="skills skills-color java">75%</div>
             </div>
-            <span className="span_skillsbar">Javascript</span>
+            <span className="span_skillsbar">
+              <img className="skills-mini-logos" src={javascript} alt="javascript" />
+              Javascript
+            </span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='300'
@@ -60,7 +66,21 @@ const Skills = () => (
           <Col>
           {/*FRAMEWORKS */}
             <h5>Frameworks</h5>
-            <span className="span_skillsbar">Angular</span>
+            <span className="span_skillsbar">
+              <img src={spring} className="skills-mini-logos" alt="spring" />
+              Spring / Spring-Boot
+            </span>
+            <div className="skills-progress-bar"  data-sal='slide-up'
+                 data-sal-easing='ease'
+                 data-sal-delay='100'
+                 data-sal-duration='2000'>
+              <div className="skills skills-color spring">75%</div>
+            </div>
+
+            <span className="span_skillsbar">
+              <img src={angular} className="skills-mini-logos" alt="angular" />
+              Angular
+            </span>
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='100'

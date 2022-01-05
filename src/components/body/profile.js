@@ -227,8 +227,8 @@ const Profile = () => (
                                 <hr />
 
                                 <p className="logos">
+                                    <img src={graduatedLogo} alt="graduatedLogo"/>
                                     <h5>
-                                        <img src={graduatedLogo} alt="graduatedLogo"/>
                                         BES - Webdeveloper
                                     </h5>
                                 </p>
