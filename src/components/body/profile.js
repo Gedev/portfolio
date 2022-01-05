@@ -22,7 +22,6 @@ import awardLogo from "../../images/award.png";
 import slackLogo from "../../images/slack.png";
 import cv from "../../files/Gerald_Devreux_CV_2021.pdf";
 import arrowDownload from "../../images/downloadArrowWhite32.png";
-import java24 from "../../images/java24.png";
 
 function renderTooltip(props) {
     return (
@@ -152,17 +151,14 @@ const Profile = () => (
                                             <Card.Title>Tools :</Card.Title>
                                             <p className="logos">
                                                 <img src={hubspotLogo} alt="hubspotLogo"/>
-
-                                                    <img src={dockerLogo} alt="dockerLogo"/>
-                                                    <img src={gitLogo} alt="gitLogo"/>
-                                                    <img src={slackLogo} alt="slackLogo"/>
-                                                    <img src={bitbucketLogo} alt="bitbucketLogo"/>
+                                                <img src={dockerLogo} alt="dockerLogo"/>
+                                                <img src={gitLogo} alt="gitLogo"/>
+                                                <img src={slackLogo} alt="slackLogo"/>
+                                                <img src={bitbucketLogo} alt="bitbucketLogo"/>
                                                 Clubhouse
-
                                             </p>
-
-                                            <hr/>
                                         </p>
+                                        <hr/>
                                         <Card.Title>Project management methodology :</Card.Title>
                                         Agile/SCRUM,
                                         Peercoding
@@ -210,43 +206,43 @@ const Profile = () => (
                               data-sal-delay="800"
                               data-sal-easing="ease"
                               data-sal-duration="1000">
-                        <Card>
-                            <Card.Header>
-                                <h4>Diplomas</h4>
-                            </Card.Header>
-                            <Card.Body id="education">
-                                <p className="logos">
-                                    <img src={awardLogo} alt="awardLogo"/>
-                                    <h5>
-                                        Java/ANGULAR - intensive training
-                                    </h5>
-                                </p>
+                            <Card>
+                                <Card.Header>
+                                    <h4>Diplomas</h4>
+                                </Card.Header>
+                                <Card.Body id="education">
+                                    <p className="logos">
+                                        <img src={awardLogo} alt="awardLogo"/>
+                                        <h5>
+                                            Java/ANGULAR - intensive training
+                                        </h5>
+                                    </p>
 
-                                Technobel - 7 months
-                                <p>2021 - Arlon</p>
-                                <hr />
+                                    Technobel - 7 months
+                                    <p>2021 - Arlon</p>
+                                    <hr />
 
-                                <p className="logos">
-                                    <img src={graduatedLogo} alt="graduatedLogo"/>
-                                    <h5>
-                                        BES - Webdeveloper
-                                    </h5>
-                                </p>
-                                2020 - Namur
-                                <hr />
+                                    <p className="logos">
+                                        <img src={graduatedLogo} alt="graduatedLogo"/>
+                                        <h5>
+                                            BES - Webdeveloper
+                                        </h5>
+                                    </p>
+                                    2020 - Namur
+                                    <hr />
 
-                                <p className="logos">
-                                    <img src={awardLogo} alt="awardLogo"/>
-                                    <h5>
-                                        CESS
-                                    </h5>
-                                </p>
-                                2011 - Athénée Royale de la Roche-en-Ardenne
-                                <p className="logos">
-                                    Option Computer Science
-                                </p>
-                            </Card.Body>
-                        </Card>
+                                    <p className="logos">
+                                        <img src={awardLogo} alt="awardLogo"/>
+                                        <h5>
+                                            CESS
+                                        </h5>
+                                    </p>
+                                    2011 - Athénée Royale de la Roche-en-Ardenne
+                                    <p className="logos">
+                                        Option Computer Science
+                                    </p>
+                                </Card.Body>
+                            </Card>
                         </div>
                         <div  data-sal="slide-left"
                               data-sal-delay="400"
@@ -278,7 +274,6 @@ const Profile = () => (
                 <Row>
                   <Card id="cv">
                     <Card.Body>
-                      <Card.Title></Card.Title>
                       <Card.Text>
                          Download my Curriculum Vitae
                         <Button href={cv} download="Gerald_Devreux_CV_2021.pdf">

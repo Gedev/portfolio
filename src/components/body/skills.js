@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import java24 from "../../images/java24.png";
 import spring from "../../images/software-development-logos/png/040-spring-logo_50px.png";
 import javascript from "../../images/software-development-logos/png/041-javascript-24px.png";
 import angular from "../../images/software-development-logos/png/042-angular.png";
@@ -12,10 +11,7 @@ const Skills = () => (
         <Row>
           <Col>
             <h5>Programming languages</h5>
-            <span className="span_skillsbar">
-              <img src={java24} className="skills-mini-logos" alt="java24" />
-              Java
-            </span>
+
             <div className="skills-progress-bar"  data-sal='slide-up'
                  data-sal-easing='ease'
                  data-sal-delay='100'
