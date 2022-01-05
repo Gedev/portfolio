@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="Add angular to the skill list, add mini logos to the main technos">
+    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="Minor adjustments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/lab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/lab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
       <workItem from="1623617487697" duration="697000" />
       <workItem from="1623849866026" duration="279000" />
       <workItem from="1636721956034" duration="3342000" />
-      <workItem from="1641415903305" duration="3519000" />
+      <workItem from="1641415903305" duration="4610000" />
     </task>
     <task id="LOCAL-00001" summary="remove Gatsby Layout from pages (causing major css problems)&#10;Add contact section's form (with react-bootstrap)">
       <created>1589874415195</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641418281430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Minor adjustments">
+      <created>1641419634254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641419634254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +209,7 @@
     <MESSAGE value="Updapte presentation text, rearrange skills bar by priority and add minor improvments" />
     <MESSAGE value="Add technobel training to education section" />
     <MESSAGE value="Add angular to the skill list, add mini logos to the main technos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add angular to the skill list, add mini logos to the main technos" />
+    <MESSAGE value="Minor adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor adjustments" />
   </component>
 </project>
