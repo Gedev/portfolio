@@ -22,11 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="Minor adjustments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/lab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/lab.js" afterDir="false" />
+    <list default="true" id="05104f92-7092-41a6-9bce-b5c289c246de" name="Default Changelist" comment="Skill section : Add java's icon">
+      <change beforePath="$PROJECT_DIR$/src/files/Gerald_Devreux_CV_2021.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/xampp/htdocs/portfolio",
+    "last_opened_file_path": "D:/xampp/htdocs/portfolio/src/files",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641419634254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Skill section : Add java's icon">
+      <created>1644268645371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644268645371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +210,7 @@
     <MESSAGE value="Add technobel training to education section" />
     <MESSAGE value="Add angular to the skill list, add mini logos to the main technos" />
     <MESSAGE value="Minor adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor adjustments" />
+    <MESSAGE value="Skill section : Add java's icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skill section : Add java's icon" />
   </component>
 </project>

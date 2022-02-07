@@ -32,43 +32,53 @@ const SideProjects = () => (
 
       <Row>
         <Col>
-          <Card>
-            <Card.Header>
-              <h5>
-                Classroom Finder - web application using RFID technology
-              </h5>
-            </Card.Header>
-            <Card.Body className="cardBody">
-              <Card.Title>Preview</Card.Title>
-              <Card.Text>
-                <img src={classroomFinder_homepage} alt="classroomFinder_homepage_Preview" />
-                <img src={announcements} alt="announcementsPreview" />
-                <img src={classroomFinder_users} alt="classroomFinder_usersPreview" />
-                <Card.Title>Tech :</Card.Title>
-                <p className="logos">
-                  <OverlayTrigger
-                      placement="top"
-                      delay={{show: 0, hide: 0}}
-                      overlay={renderTooltip("PhP")}
-                  >
-                  <img src={phpLogo} alt="phpLogo"/>
-                  </OverlayTrigger>
-                  <OverlayTrigger
-                      placement="top"
-                      delay={{show: 0, hide: 0}}
-                      overlay={renderTooltip("Laravel")}
-                  >
-                  <img src={laravelLogo} alt="laravelLogo"/>
-                  </OverlayTrigger>
-                </p>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <div  data-sal="fade"
+                data-sal-delay="200"
+                data-sal-easing="ease"
+                data-sal-duration="1000">
+            <Card>
+              <Card.Header>
+                <h5>
+                  Classroom Finder - web application using RFID technology
+                </h5>
+              </Card.Header>
+              <Card.Body className="cardBody">
+                <Card.Title>Preview</Card.Title>
+                <Card.Text>
+                  <img src={classroomFinder_homepage} alt="classroomFinder_homepage_Preview" />
+                  <img src={announcements} alt="announcementsPreview" />
+                  <img src={classroomFinder_users} alt="classroomFinder_usersPreview" />
+                  <Card.Title>Tech :</Card.Title>
+                  <p className="logos">
+                    <OverlayTrigger
+                        placement="top"
+                        delay={{show: 0, hide: 0}}
+                        overlay={renderTooltip("PhP")}
+                    >
+                    <img src={phpLogo} alt="phpLogo"/>
+                    </OverlayTrigger>
+                    <OverlayTrigger
+                        placement="top"
+                        delay={{show: 0, hide: 0}}
+                        overlay={renderTooltip("Laravel")}
+                    >
+                    <img src={laravelLogo} alt="laravelLogo"/>
+                    </OverlayTrigger>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </Col>
       </Row>
+
       <Row>
       <Col>
-      <Card>
+        <div  data-sal="fade"
+              data-sal-delay="400"
+              data-sal-easing="ease"
+              data-sal-duration="1000">
+          <Card>
       <Card.Header>
         <h5>
           A javascript navigator game
@@ -99,40 +109,47 @@ const SideProjects = () => (
         </Card.Text>
       </Card.Body>
     </Card>
+        </div>
       </Col>
-        <Col>
+
+      <Col>
+        <div  data-sal="fade"
+              data-sal-delay="600"
+              data-sal-easing="ease"
+              data-sal-duration="1000">
           <Card>
-            <Card.Header>
-              <h5>
-                Poulpatose
-              </h5>
-            </Card.Header>
-            <Card.Body className="cardBody">
-              <Card.Title>Preview</Card.Title>
-              <Card.Text>
-                <img src={poulpatose} alt="poulpatosePreview" />
-                <p>A funny Card game I created and printed.</p>
-                <p className="logos">
-                  <Card.Title>Tech :</Card.Title>
-                  <OverlayTrigger
-                      placement="top"
-                      delay={{show: 0, hide: 0}}
-                      overlay={renderTooltip("Photoshop")}
-                  >
-                    <img src={photoshopLogo} alt="photoshopLogo"/>
-                  </OverlayTrigger>
-                  <OverlayTrigger
-                      placement="top"
-                      delay={{show: 0, hide: 0}}
-                      overlay={renderTooltip("Illustrator")}
-                  >
-                    <img src={illustratorLogo} alt="illustratorLogo"/>
-                  </OverlayTrigger>
-                </p>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+          <Card.Header>
+            <h5>
+              Poulpatose
+            </h5>
+          </Card.Header>
+          <Card.Body className="cardBody">
+            <Card.Title>Preview</Card.Title>
+            <Card.Text>
+              <img src={poulpatose} alt="poulpatosePreview" />
+              <p>A funny Card game I created and printed.</p>
+              <p className="logos">
+                <Card.Title>Tech :</Card.Title>
+                <OverlayTrigger
+                    placement="top"
+                    delay={{show: 0, hide: 0}}
+                    overlay={renderTooltip("Photoshop")}
+                >
+                  <img src={photoshopLogo} alt="photoshopLogo"/>
+                </OverlayTrigger>
+                <OverlayTrigger
+                    placement="top"
+                    delay={{show: 0, hide: 0}}
+                    overlay={renderTooltip("Illustrator")}
+                >
+                  <img src={illustratorLogo} alt="illustratorLogo"/>
+                </OverlayTrigger>
+              </p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        </div>
+      </Col>
       </Row>
     </Container>
   </section>
